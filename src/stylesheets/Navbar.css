@@ -1,0 +1,67 @@
+#navbarJimMobile {
+  position: fixed;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: flex-end;
+  text-align: right;
+  height: 160px;
+  background: white;
+  width: 100vw;
+  padding: 0 7.5vw 0 9vw;
+  z-index: 5;
+}
+#navbarJimMobile {
+  height: 130px;
+}
+.navbarJim {
+  margin-top: 25px;
+}
+.navbarJimMenu {
+  margin-top: 20px;
+  text-align: left;
+}
+#NavbarSocial {
+  position: fixed;
+  display: flex;
+  width: 13.5vw;
+  height: 100vh;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  right: 0;
+  z-index: 20;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+#navBarToggle {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+#navBarToggle h4 {
+  margin-top: 0px;
+}
+
+@media (min-width: 540px) and (max-width: 600px) {
+  #navbarJimMobile {
+    padding: 0 15vw;
+  }
+}
+@media (max-width: 539px) {
+  #NavbarSocial {
+    width: 100vw;
+    height: 80px;
+    bottom: 0;
+    top: unset;
+    z-index: 25;
+    background: #fff;
+    justify-content: center;
+  }
+  .social {
+    flex-direction: row;
+  }
+}
