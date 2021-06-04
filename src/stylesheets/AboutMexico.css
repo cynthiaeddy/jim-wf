@@ -15,9 +15,9 @@
 .aboutMexicoContainer.mobile {
   height: 100vh;
   overflow-y: auto;
-  width: 85%;
+  width: 85vw;
   margin-top: 160px;
-  padding-bottom: 350px;
+  padding-bottom: 250px;
 }
 .Images-spread,
 .Image-spread {
