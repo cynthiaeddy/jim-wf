@@ -100,6 +100,6 @@ img.AboutJim {
 }
 @media (max-width: 400px) {
   .aboutJimContainer.mobile {
-    padding-bottom: 140px;
+    padding-bottom: 150px;
   }
 }
