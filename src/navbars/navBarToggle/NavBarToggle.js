@@ -7,18 +7,18 @@ const NavBarToggle = () => {
     <div id='navBarToggle'>
       <h4>
         <ul className='toggleNavBar'>
-          {/* <li>
+          <li>
             <Link to='/' className='home'>
               Home
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link to='/world-food' className='world-food'>
               World Food: Mexico City
             </Link>
           </li>
           <li>
-            <Link to='/' className='about-james'>
+            <Link to='/about-james' className='about-james'>
               About James Oseland
             </Link>
           </li>

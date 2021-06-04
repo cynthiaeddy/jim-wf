@@ -11,7 +11,7 @@
 }
 
 #NavbarMexicoMobile,
-#NavbarJimMobile {
+#navbarMobile {
   position: fixed;
   flex-direction: column;
   margin-top: 0;
@@ -24,10 +24,10 @@
   padding: 0 7.5vw 0 9vw;
   z-index: 5;
 }
-#NavbarJimMobile {
+#navbarMobile {
   height: 130px;
 }
-.NavbarJimMobile-title h6 {
+.navbarMobile-title h6 {
   margin-top: 25px;
 }
 
@@ -196,7 +196,7 @@ li {
   h1 {
     font-size: 4.5rem;
   }
-  #NavbarJimMobile {
+  #navbarMobile {
     padding: 0 15vw;
   }
 }
@@ -230,7 +230,7 @@ li {
 }
 /* /////horizontal mobile ////// */
 @media (max-height: 540px) and (max-width: 899px) {
-  #NavbarJimMobile {
+  #navbarMobile {
     height: 100px;
   }
   #toggle-container h4 {
@@ -238,9 +238,9 @@ li {
   }
 }
 /* ///////hybrid////// */
-.NavbarJimMobile-title span {
+.navbarMobile-title span {
   line-height: 0.8;
 }
-#NavbarJimMobile .hybrid {
+#navbarMobile .hybrid {
   height: 140px;
 }

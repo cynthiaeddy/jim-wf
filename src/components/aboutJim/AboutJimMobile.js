@@ -1,23 +1,23 @@
 import React from 'react'
 import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
-import NavbarJimMobile from '../../navbars/navbarJim/NavbarJimMobile'
+import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
 import '../../stylesheets/AboutJim.css'
 
 const AboutJimMobile = () => {
   return (
     <div className='container'>
-      <NavbarJimMobile />
+      <navbarMobile />
 
-      <div className='AboutJimContainer mobile'>
-        <div className='AboutJimContainer mobile-books'>
-          <div className='AboutJimContainer mobile-left'>
+      <div className='aboutJimContainer mobile'>
+        <div className='aboutJimContainer mobile-books'>
+          <div className='aboutJimContainer mobile-left'>
             <img
               src='https://imgur.com/Mx87EXE.png'
               className='AboutJim'
               alt='jim'
             />
           </div>
-          <div className='AboutJimContainer mobile-right'>
+          <div className='aboutJimContainer mobile-right'>
             <div className='book'>
               <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1'>
                 <img
@@ -31,7 +31,7 @@ const AboutJimMobile = () => {
             </div>
 
             <div className='book'>
-              <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=AboutJimContainer-right-books&sr=1-2'>
+              <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=aboutJimContainer-right-books&sr=1-2'>
                 <img
                   src='https://imgur.com/FmvS9sX.png'
                   alt='paris book cover'
@@ -106,7 +106,7 @@ const AboutJimMobile = () => {
           <a href='https://www.amazon.com/gp/product/0393054772/ref=dbs_a_def_rwt_bibl_vppi_i4'>
             <i>Cradle of Flavor</i>
           </a>{' '}
-          was named one of the best AboutJimContainer-right-books of 2006 by the{' '}
+          was named one of the best aboutJimContainer-right-books of 2006 by the{' '}
           <i>New York Times </i>
           and <i>Good Morning America</i>. Additionally, James’s writing has
           appeared in <i>Gourmet, Vogue, Food and Wine</i>, and the{' '}

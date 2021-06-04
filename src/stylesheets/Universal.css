@@ -1,0 +1,93 @@
+.AboutMexicoContainer-mobileAlt {
+  height: 100vh;
+  overflow-y: auto;
+  width: 85%;
+  margin-top: 160px;
+  padding-bottom: 350px;
+}
+@media (min-width: 788px) and (max-width: 840px) {
+  #NavbarMexicoMobileInt {
+    flex-wrap: wrap;
+  }
+  #NavbarMexicoMobileInt::after {
+    content: '';
+    width: 100%;
+  }
+  .MobileInt:last-child {
+    margin-left: auto;
+    order: 1;
+  }
+}
+@media (min-width: 699px) and (max-width: 785px) {
+  #NavbarMexicoMobileInt {
+    flex-wrap: wrap;
+  }
+
+  .NavbarMexicoMobileInt {
+    margin-left: auto;
+  }
+}
+
+#NavbarMexicoMobileInt {
+  position: fixed;
+  display: flex;
+  width: 70vw;
+  height: 90px;
+  top: 50px;
+  justify-content: space-between;
+  z-index: 5;
+}
+@media (min-width: 699px) and (max-width: 760px) {
+  .AboutMexicoContainer-mobileAlt {
+    margin-top: 130px;
+  }
+}
+@media (min-width: 540px) and (max-width: 698px) {
+  .AboutMexicoContainer-mobileAlt {
+    margin-top: 180px;
+  }
+}
+@media (min-width: 540px) and (max-width: 900px) {
+  .navbarMobile-h3 {
+    margin-top: 70px;
+  }
+  #navbarMobile.NavbarMobileHybrid,
+  .AboutMexicoContainer-mobileAlt,
+  .homeContainerMobile {
+    width: 70%;
+  }
+  #navbarMobile.NavbarMobileHybrid {
+    padding: 0;
+    height: 210px;
+  }
+  .homeContainerMobile {
+    margin-top: 205px;
+  }
+}
+
+@media (min-width: 539px) and (max-width: 760px) {
+  #NavbarMexicoMobile,
+  #navbarMobile,
+  .AboutMexicoContainer-mobileAlt,
+  .homeContainerMobile {
+    width: 70%;
+  }
+  #NavbarMexicoMobile,
+  #navbarMobile {
+    padding: 0;
+  }
+}
+.buyNav.mexico-mobile {
+  display: block;
+}
+@media (max-width: 400px) {
+  .homeContainerMobile-h5 {
+    margin-left: 12px;
+  }
+  .homeContainerMobile {
+    padding-bottom: 60px;
+  }
+  .AboutMexicoContainer-mobileAlt {
+    padding-bottom: 320px;
+  }
+}

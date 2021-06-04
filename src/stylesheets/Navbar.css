@@ -1,4 +1,4 @@
-#navbarJimMobile {
+#navbarMobile {
   position: fixed;
   flex-direction: column;
   margin-top: 0;
@@ -6,17 +6,16 @@
   text-align: right;
   height: 160px;
   background: white;
-  width: 100vw;
-  padding: 0 7.5vw 0 9vw;
+  width: 85vw;
   z-index: 5;
 }
-#navbarJimMobile {
+#navbarMobile {
   height: 130px;
 }
-.navbarJim {
+.navbarTitle {
   margin-top: 25px;
 }
-.navbarJimMenu {
+.navbarMenu {
   margin-top: 20px;
   text-align: left;
 }
@@ -45,12 +44,14 @@
 #navBarToggle h4 {
   margin-top: 0px;
 }
-
-@media (min-width: 540px) and (max-width: 600px) {
-  #navbarJimMobile {
-    padding: 0 15vw;
+@media (min-width: 540px) and (max-width: 900px) {
+  #navbarMobile.navbarHomeMobileHybrid,
+  .AboutMexicoContainer-mobileAlt,
+  .HomeContainerMobile {
+    width: 70vw;
   }
 }
+
 @media (max-width: 539px) {
   #NavbarSocial {
     width: 100vw;
@@ -63,5 +64,22 @@
   }
   .social {
     flex-direction: row;
+  }
+  #navbarMobile.navbarHomeMobileHybrid {
+    height: 150px;
+  }
+  .navbarWorldFood h1 {
+    font-weight: 400;
+    font-size: 5.3rem;
+    line-height: 0.7;
+  }
+}
+@media (max-width: 400px) {
+  .navbarWorldFood h1 {
+    font-size: 4.2rem;
+    line-height: 0.7;
+  }
+  #navbarMobile.navbarHomeMobileHybrid {
+    height: 140px;
   }
 }

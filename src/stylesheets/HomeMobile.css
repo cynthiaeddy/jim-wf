@@ -1,0 +1,123 @@
+.homeContainerMobile {
+  width: 83vw;
+  margin-top: 140px;
+  overflow-y: scroll;
+  padding-bottom: 200px;
+}
+
+.homeContainerMobile.main {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr 1.1fr 0.9fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    'ipadtl carousel-mobile carousel-mobile ipadtr' 'ipadml carousel-mobile carousel-mobile ipadmr'
+    'ipadbl carousel-mobile carousel-mobile ipadbr';
+  padding-bottom: 0;
+}
+.ipadtl {
+  grid-area: ipadtl;
+}
+.ipadml {
+  grid-area: ipadml;
+}
+.ipadbl {
+  grid-area: ipadbl;
+}
+.ipadtr {
+  grid-area: ipadtr;
+}
+.ipadmr {
+  grid-area: ipadmr;
+}
+.ipadbr {
+  grid-area: ipadbr;
+}
+.carousel-mobile {
+  grid-area: carousel-mobile;
+}
+
+.homeContainerMobile.footer {
+  margin-top: 10px;
+}
+.homeContainerMobile.credits h2 {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2.5px;
+}
+
+.signUpBtn.mobile {
+  margin-top: 3px;
+  line-height: 0.5;
+  height: 27px;
+}
+
+.homeContainerMobile.credits {
+  width: 75%;
+}
+.homeContainerMobile.signup {
+  height: 27px;
+  background: black;
+  text-align: center;
+}
+
+@media (min-width: 540px) and (max-width: 900px) {
+  .homeContainerMobile.credits {
+    width: 100%;
+  }
+  .homeContainerMobile.credits h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 539px) {
+  .homeContainerMobile.main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      'ipadtl ipadml ipadbl' 'carousel-mobile  carousel-mobile  carousel-mobile '
+      'carousel-mobile  carousel-mobile  carousel-mobile' 'ipadtr ipadmr ipadbr';
+  }
+  .homeContainerMobile {
+    width: 85vw;
+  }
+
+  .homeContainerMobile.credits h2 {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 2.5px;
+  }
+
+  .signUpBtn.mobile:focus {
+    outline: none !important;
+  }
+
+  .homeContainerMobile.credits {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .homeContainerMobile h5 {
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .homeContainerMobile h5 {
+    margin-top: 0px;
+  }
+  .homeContainerMobile {
+    padding-bottom: 60px;
+  }
+  h1 {
+    font-size: 4.3rem;
+    line-height: 0.7;
+  }
+}

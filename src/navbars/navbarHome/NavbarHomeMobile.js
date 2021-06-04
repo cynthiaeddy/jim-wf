@@ -2,20 +2,23 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
 
-const navbarMobile = () => {
+const NavbarHomeMobile = () => {
   return (
-    <nav id='navbarMobile'>
+    <nav id='navbarMobile' className='navbarHomeMobileHybrid'>
       <Link to='/navbar'>
         <h6 className='navbarMenu'>Menu</h6>
       </Link>
       <div className='navbarTitle'>
-        <h6>
+        <h3>
+          {/* <h3 className='navbarMobile-h3'> */}
           James Oseland’s <br />
-          <span className='navbarWorldFood'>WORLD FOOD</span>
-        </h6>
+          <span className='navbarWorldFood'>
+            <h1>WORLD FOOD</h1>
+          </span>
+        </h3>
       </div>
     </nav>
   )
 }
 
-export default navbarMobile
+export default NavbarHomeMobile

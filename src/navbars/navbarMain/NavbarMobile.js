@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
 
-const navbarMobile = () => {
+const NavbarMobile = () => {
   return (
     <nav id='navbarMobile'>
       <Link to='/navbar'>
@@ -18,4 +18,4 @@ const navbarMobile = () => {
   )
 }
 
-export default navbarMobile
+export default NavbarMobile

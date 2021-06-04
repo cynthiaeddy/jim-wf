@@ -4,6 +4,7 @@ import { Route, Redirect } from 'react-router-dom'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
+import HomeMobile from './components/home/HomeMobile'
 
 class App extends React.Component {
   state = {
@@ -35,9 +36,9 @@ class App extends React.Component {
 
     return (
       <div className='app'>
-        <AboutJimMobile />
         <Route exact path='/navbar' component={NavBarToggle} />
-        {/* <Route exact path='/' component={AboutJimMobile} /> */}
+        <Route exact path='/' component={HomeMobile} />
+        <Route exact path='/about-james' component={AboutJimMobile} />
         {/* <Redirect to='/' /> */}
       </div>
     )
