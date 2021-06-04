@@ -13,11 +13,10 @@
 } */
 
 .aboutMexicoContainer.mobile {
-  height: 100vh;
   overflow-y: auto;
   width: 85vw;
   margin-top: 160px;
-  padding-bottom: 230px;
+  padding-bottom: 80px;
 }
 .Images-spread,
 .Image-spread {
@@ -73,8 +72,8 @@ h2 span {
   }
 } */
 
-/* @media (max-width: 400px) {
+@media (max-width: 400px) {
   .aboutMexicoContainer-mobile {
-    padding-bottom: 320px;
+    padding-bottom: 180px;
   }
-} */
+}
