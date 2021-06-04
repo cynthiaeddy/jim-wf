@@ -2,7 +2,7 @@
   width: 83vw;
   margin-top: 140px;
   overflow-y: auto;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
 }
 
 .homeContainerMobile.main {
@@ -41,6 +41,7 @@
 .homeContainerMobile.footer {
   margin-top: 10px;
   padding: 0;
+  margin-bottom: 90px;
 }
 .homeContainerMobile.credits h2 {
   margin: 5px 0;
@@ -107,6 +108,6 @@
 }
 @media (max-width: 400px) {
   .homeContainerMobile {
-    padding-bottom: 170px;
+    /* padding-bottom: 170px; */
   }
 }

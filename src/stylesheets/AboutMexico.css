@@ -16,13 +16,17 @@
   overflow-y: auto;
   width: 85vw;
   margin-top: 160px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 .Images-spread,
 .Image-spread {
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
 }
+.Image-spread:last-child {
+  margin-bottom: 80px;
+}
+
 .Images-spread.mexico-opener {
   border: none;
 }
@@ -74,6 +78,6 @@ h2 span {
 
 @media (max-width: 400px) {
   .aboutMexicoContainer.mobile {
-    padding-bottom: 160px;
+    /* padding-bottom: 210px; */
   }
 }

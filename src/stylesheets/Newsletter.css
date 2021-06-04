@@ -151,7 +151,7 @@ input:hover {
     margin-top: 130px;
     overflow-x: hidden;
     overflow-y: auto;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
   #newsletterContainer p {
     margin-left: 10%;
@@ -161,6 +161,7 @@ input:hover {
 
   .video {
     width: 100%;
+    margin-bottom: 80px;
   }
   .video img {
     width: 90%;
@@ -168,6 +169,6 @@ input:hover {
 }
 @media (max-width: 400px) {
   #newsletterContainer {
-    padding-bottom: 130px;
+    /* padding-bottom: 130px; */
   }
 }

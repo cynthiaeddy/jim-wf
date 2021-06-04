@@ -49,19 +49,19 @@
   margin-top: 12px;
 }
 
-img.AboutJim {
+/* img.AboutJim {
   height: 100%;
   object-fit: contain;
-}
+} */
 
-@media (min-width: 900px) and (max-width: 1199px) {
+/* @media (min-width: 900px) and (max-width: 1199px) {
   .aboutJimContainer {
     width: 80vw;
   }
   img.AboutJim {
     width: 95%;
   }
-}
+} */
 
 @media (max-width: 539px) {
   .aboutJimContainer.mobile-books {
@@ -83,13 +83,10 @@ img.AboutJim {
     width: 83vw;
     margin-top: 120px;
     overflow-y: scroll;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
   }
-
-  .aboutJimContainer-right-copy p {
-    margin: 0;
-    line-height: 1.5;
-    overflow: unset;
+  .aboutJimContainer.mobile p {
+    margin-bottom: 90px;
   }
 
   .book {
@@ -100,6 +97,6 @@ img.AboutJim {
 }
 @media (max-width: 400px) {
   .aboutJimContainer.mobile {
-    padding-bottom: 150px;
+    /* padding-bottom: 140px; */
   }
 }
