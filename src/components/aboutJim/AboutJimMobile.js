@@ -6,7 +6,7 @@ import '../../stylesheets/AboutJim.css'
 const AboutJimMobile = () => {
   return (
     <div className='container'>
-      <navbarMobile />
+      <NavbarMobile />
 
       <div className='aboutJimContainer mobile'>
         <div className='aboutJimContainer mobile-books'>

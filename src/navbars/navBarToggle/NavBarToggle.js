@@ -5,30 +5,36 @@ import '../../stylesheets/Navbar.css'
 const NavBarToggle = () => {
   return (
     <div id='navBarToggle'>
-      <h4>
-        <ul className='toggleNavBar'>
-          <li>
+      <ul className='toggleNavBar'>
+        <li>
+          <h4>
             <Link to='/' className='home'>
               Home
             </Link>
-          </li>
-          <li>
+          </h4>
+        </li>
+        <li>
+          <h4>
             <Link to='/world-food' className='world-food'>
               World Food: Mexico City
             </Link>
-          </li>
-          <li>
+          </h4>
+        </li>
+        <li>
+          <h4>
             <Link to='/about-james' className='about-james'>
               About James Oseland
             </Link>
-          </li>
-          <li>
+          </h4>
+        </li>
+        <li>
+          <h4>
             <Link to='/newsletter' className='newsletter'>
               Newsletter and Videos
             </Link>
-          </li>
-        </ul>
-      </h4>
+          </h4>
+        </li>
+      </ul>
     </div>
   )
 }

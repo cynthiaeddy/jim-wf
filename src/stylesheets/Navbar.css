@@ -4,14 +4,12 @@
   margin-top: 0;
   align-items: flex-end;
   text-align: right;
-  height: 160px;
+  height: 130px;
   background: white;
   width: 85vw;
   z-index: 5;
 }
-#navbarMobile {
-  height: 130px;
-}
+
 .navbarTitle {
   margin-top: 25px;
 }
@@ -40,10 +38,24 @@
   position: fixed;
   height: 100vh;
   width: 100vw;
+  background: grey;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#navBarToggle h4 {
-  margin-top: 0px;
+#navBarToggle a {
+  color: #fff;
 }
+ul.toggleNavBar {
+  list-style-type: none;
+  padding: 0;
+}
+.toggleNavBar {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
 @media (min-width: 540px) and (max-width: 900px) {
   #navbarMobile.navbarHomeMobileHybrid,
   .AboutMexicoContainer-mobileAlt,

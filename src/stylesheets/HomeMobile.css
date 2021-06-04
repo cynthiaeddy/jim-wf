@@ -40,6 +40,7 @@
 
 .homeContainerMobile.footer {
   margin-top: 10px;
+  padding: 0;
 }
 .homeContainerMobile.credits h2 {
   margin: 5px 0;
@@ -49,28 +50,29 @@
 }
 
 .signUpBtn.mobile {
-  margin-top: 3px;
+  margin-top: 10px;
   line-height: 0.5;
   height: 27px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  bottom: 0;
+  font-weight: 700;
+  border: none;
+  padding-top: 3px;
 }
 
 .homeContainerMobile.credits {
   width: 75%;
 }
-.homeContainerMobile.signup {
-  height: 27px;
-  background: black;
-  text-align: center;
-}
 
-@media (min-width: 540px) and (max-width: 900px) {
+@media (max-width: 900px) {
   .homeContainerMobile.credits {
     width: 100%;
-  }
-  .homeContainerMobile.credits h2 {
-    text-align: center;
     margin: 0;
-    margin-bottom: 5px;
+    padding: 0;
   }
 }
 
@@ -87,22 +89,6 @@
     width: 85vw;
   }
 
-  .homeContainerMobile.credits h2 {
-    margin: 5px 0;
-    text-align: center;
-    font-size: 1.2rem;
-    letter-spacing: 2.5px;
-  }
-
-  .signUpBtn.mobile:focus {
-    outline: none !important;
-  }
-
-  .homeContainerMobile.credits {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
   .homeContainerMobile h5 {
     margin-top: 10px;
     padding-bottom: 0;
@@ -113,9 +99,7 @@
   .homeContainerMobile h5 {
     margin-top: 0px;
   }
-  .homeContainerMobile {
-    padding-bottom: 60px;
-  }
+
   h1 {
     font-size: 4.3rem;
     line-height: 0.7;

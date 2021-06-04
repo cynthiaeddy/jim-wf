@@ -10,7 +10,6 @@ const NavbarHomeMobile = () => {
       </Link>
       <div className='navbarTitle'>
         <h3>
-          {/* <h3 className='navbarMobile-h3'> */}
           James Oseland’s <br />
           <span className='navbarWorldFood'>
             <h1>WORLD FOOD</h1>
