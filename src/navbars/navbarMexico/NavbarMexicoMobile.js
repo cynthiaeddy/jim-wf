@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
 
-const navbarMobile = () => {
+const NavbarMexicoMobile = () => {
   return (
     <nav id='navbarMobile'>
       <Link to='/navbar'>
@@ -11,11 +11,16 @@ const navbarMobile = () => {
       <div className='navbarTitle'>
         <h6>
           James Oseland’s <br />
-          <span className='navbarWorldFood'>WORLD FOOD</span>
+          <span class='navbarWorldFood'>WORLD FOOD</span>
         </h6>
+        <div className='navbarBuy'>
+          <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850'>
+            Purchase the Book
+          </a>
+        </div>
       </div>
     </nav>
   )
 }
 
-export default navbarMobile
+export default NavbarMexicoMobile

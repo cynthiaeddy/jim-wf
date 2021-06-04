@@ -5,6 +5,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 import HomeMobile from './components/home/HomeMobile'
+import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
+import Newsletter from './components/newsletter/Newsletter'
 
 class App extends React.Component {
   state = {
@@ -39,6 +41,8 @@ class App extends React.Component {
         <Route exact path='/navbar' component={NavBarToggle} />
         <Route exact path='/' component={HomeMobile} />
         <Route exact path='/about-james' component={AboutJimMobile} />
+        <Route exact path='/world-food' component={AboutMexicoMobile} />{' '}
+        <Route exact path='/newsletter' component={Newsletter} />
         {/* <Redirect to='/' /> */}
       </div>
     )

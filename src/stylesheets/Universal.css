@@ -1,4 +1,4 @@
-/* .AboutMexicoContainer-mobileAlt {
+/* . {
   height: 100vh;
   overflow-y: auto;
   width: 85%;
@@ -38,12 +38,12 @@
   z-index: 5;
 }
 @media (min-width: 699px) and (max-width: 760px) {
-  .AboutMexicoContainer-mobileAlt {
+  .aboutMexicoContainer-mobileAlt {
     margin-top: 130px;
   }
 }
 @media (min-width: 540px) and (max-width: 698px) {
-  .AboutMexicoContainer-mobileAlt {
+  .aboutMexicoContainer-mobileAlt {
     margin-top: 180px;
   }
 }
@@ -52,7 +52,7 @@
     margin-top: 70px;
   }
   #navbarMobile.NavbarMobileHybrid,
-  .AboutMexicoContainer-mobileAlt,
+  .aboutMexicoContainer-mobileAlt,
   .homeContainerMobile {
     width: 70%;
   }
@@ -68,7 +68,7 @@
 @media (min-width: 539px) and (max-width: 760px) {
   #NavbarMexicoMobile,
   #navbarMobile,
-  .AboutMexicoContainer-mobileAlt,
+  .aboutMexicoContainer-mobileAlt,
   .homeContainerMobile {
     width: 70%;
   }
@@ -87,7 +87,7 @@
   .homeContainerMobile {
     padding-bottom: 60px;
   }
-  .AboutMexicoContainer-mobileAlt {
+  .aboutMexicoContainer-mobileAlt {
     padding-bottom: 320px;
   }
 } */

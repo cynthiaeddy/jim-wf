@@ -17,6 +17,14 @@
   margin-top: 20px;
   text-align: left;
 }
+.navbarBuy {
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
 #NavbarSocial {
   position: fixed;
   display: flex;
@@ -56,13 +64,13 @@ ul.toggleNavBar {
   margin-bottom: 75px;
 }
 
-@media (min-width: 540px) and (max-width: 900px) {
+/* @media (min-width: 540px) and (max-width: 900px) {
   #navbarMobile.navbarHomeMobileHybrid,
-  .AboutMexicoContainer-mobileAlt,
+  .aboutMexicoContainer-mobileAlt,
   .HomeContainerMobile {
     width: 70vw;
   }
-}
+} */
 
 @media (max-width: 539px) {
   #NavbarSocial {
