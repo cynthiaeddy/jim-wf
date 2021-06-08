@@ -6,8 +6,6 @@ import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 import HomeMobile from './components/home/HomeMobile'
 import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
-import AboutMexicoMobileOne from './components/mexico/AboutMexicoMobileOne'
-import AboutMexicoMobileTwo from './components/mexico/AboutMexicoMobileTwo'
 
 import Newsletter from './components/newsletter/Newsletter'
 
@@ -45,8 +43,7 @@ class App extends React.Component {
         <Route exact path='/' component={HomeMobile} />
         <Route exact path='/about-james' component={AboutJimMobile} />
         <Route exact path='/world-food' component={AboutMexicoMobile} />
-        <Route exact path='/world-food-one' component={AboutMexicoMobileOne} />
-        <Route exact path='/world-food-two' component={AboutMexicoMobileTwo} />
+
         <Route exact path='/newsletter' component={Newsletter} />
         {/* <Redirect to='/' /> */}
       </div>
