@@ -22,20 +22,6 @@ const NavBarToggle = () => {
         </li>
         <li>
           <h4>
-            <Link to='/world-food-one' className='world-food'>
-              mexico one
-            </Link>
-          </h4>
-        </li>
-        <li>
-          <h4>
-            <Link to='/world-food-two' className='world-food'>
-              mexico two
-            </Link>
-          </h4>
-        </li>
-        <li>
-          <h4>
             <Link to='/about-james' className='about-james'>
               About James Oseland
             </Link>
