@@ -74,9 +74,6 @@ h2 span {
 
 @media (max-width: 400px) {
   .aboutMexicoContainer.mobile {
-    padding-bottom: 180px;
-  }
-  .aboutMexicoContainer.mobile.one {
     padding-bottom: 160px;
   }
 }
