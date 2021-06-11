@@ -1,0 +1,125 @@
+.container.home {
+  align-items: center;
+}
+
+.homeContainer-main {
+  display: grid;
+  grid-template-columns: 0.95fr 0.95fr 1.1fr 1.1fr 0.95fr 0.95fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  grid-template-areas: 'ltla ltra main main rtla copy' 'lmla lmra main main rmla copy' 'lbla lbra main main rbla copy';
+  max-width: 1260px;
+}
+
+.ltla {
+  grid-area: ltla;
+}
+.ltra {
+  grid-area: ltra;
+}
+.lmla {
+  grid-area: lmla;
+}
+.lmra {
+  grid-area: lmra;
+}
+.lbla {
+  grid-area: lbla;
+}
+.lbra {
+  grid-area: lbra;
+}
+.rtla {
+  grid-area: rtla;
+}
+.rmla {
+  grid-area: rmla;
+}
+.rbla {
+  grid-area: rbla;
+}
+.copy {
+  grid-area: copy;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  grid-area: main;
+}
+
+.homeContainer-header {
+  height: fit-content;
+}
+
+.homeContainer-header h1 {
+  font-size: 6rem;
+}
+
+.homeContainer-header h3 {
+  font-size: 2.4rem;
+  margin-bottom: -20px;
+}
+
+.signUpBtn {
+  width: 100%;
+  align-items: center;
+  background: black;
+  color: white;
+  font-size: 14px;
+  bottom: 0;
+  font-weight: 500;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-style: normal;
+  padding: 4px 20px;
+  border: none;
+  align-self: flex-end;
+  text-align: center;
+  padding: 0 40px;
+}
+.signUpBtn:hover {
+  background: grey;
+  color: white;
+}
+
+.homeContainer-footer {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 1400px) {
+  .homeContainer {
+    width: 66vw;
+    max-width: 1260px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .homeContainer {
+    width: 70vw;
+  }
+  #navbarHome {
+    padding: 0;
+  }
+  #navbarSocial {
+    width: 11vw;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .homeContainer,
+  #navbarHome {
+    width: 80vw;
+  }
+  .home-container #navbarSocial {
+    width: auto;
+    right: 3vw;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 899px) {
+  .homeContainer #navbarHome {
+    width: 70vw;
+  }
+  #navbarSocial {
+    width: 11vw;
+  }
+}

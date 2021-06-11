@@ -5,27 +5,32 @@ import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import NavbarHomeMobile from '../../navbars/navbarHome/NavbarHomeMobile'
 import LazyLoad from 'react-lazyload'
 import '../../stylesheets/HomeMobile.css'
+import '../../stylesheets/Universal.css'
 
 const HomeMobile = () => {
   return (
     <div className='container'>
       <NavbarHomeMobile />
-      <div className='homeContainerMobile'>
+      <div className='HomeContainerMobile'>
         <h5 className='HomeContainerMobile-h5'>
           Introducing World Food, an exceptional new series in the tradition of
           classic cookbooks that take you on a journey to the world's greatest
           cuisines and the remarkable cultures they come from.
         </h5>
         <LazyLoad>
-          <section className='homeContainerMobile-main'>
+          <section className='HomeContainerMobile-main'>
             <div className='ipadtl'>
-              <img src='https://imgur.com/pFJCQVg.png' alt='gal with food' />
+              <img
+                src='https://imgur.com/pFJCQVg.png'
+                alt='gal with food'></img>
             </div>
             <div className='ipadml'>
-              <img src='https://imgur.com/9YAUbs6.png' alt='corn' />
+              <img src='https://imgur.com/9YAUbs6.png' alt='corn'></img>
             </div>
             <div className='ipadbl'>
-              <img src='https://imgur.com/pokfhSn.png' alt='older man in hat' />
+              <img
+                src='https://imgur.com/pokfhSn.png'
+                alt='older man in hat'></img>
             </div>
 
             <div className='carousel-mobile'>
@@ -40,29 +45,34 @@ const HomeMobile = () => {
                 showStatus={false}
                 showArrows={false}>
                 <div>
-                  <img src='https://imgur.com/vC8skgZ.png' alt='mexico cover' />
+                  <img
+                    src='https://imgur.com/vC8skgZ.png'
+                    alt='mexico cover'></img>
                 </div>
                 <div>
-                  <img src='https://imgur.com/2BytCct.png' alt='paris cover' />
+                  <img
+                    src='https://imgur.com/2BytCct.png'
+                    alt='paris cover'></img>
                 </div>
               </Carousel>
             </div>
             <div className='ipadtr'>
-              <img src='https://imgur.com/5W2uCN4.png' alt='waiter' />
+              <img src='https://imgur.com/5W2uCN4.png' alt='waiter'></img>
             </div>
             <div className='ipadmr'>
-              <img src='https://imgur.com/zGPJQ7t.png' alt='plate of food' />
+              <img
+                src='https://imgur.com/zGPJQ7t.png'
+                alt='plate of food'></img>
             </div>
             <div className='ipadbr'>
               <img
                 src='https://imgur.com/kfZNdjw.png'
-                alt='woman with bowl of food'
-              />
+                alt='woman with bowl of food'></img>
             </div>
           </section>
         </LazyLoad>
-        <div className='homeContainerMobile-footer'>
-          <div className='homeContainerMobile-credits'>
+        <div className='HomeContainerMobile-footer'>
+          <div className='HomeContainerMobile-credits'>
             <h2>
               <a href='https://jamesroper.photoshelter.com/index'>
                 Photography by James Roper
