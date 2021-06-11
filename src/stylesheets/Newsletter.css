@@ -6,7 +6,6 @@
   width: 37vw;
   margin-right: 7vw;
   margin-top: 10px;
-  overflow-y: 185px;
 }
 
 /* #newsletterContainer p {
@@ -151,7 +150,7 @@ input:hover {
     margin-top: 130px;
     overflow-x: hidden;
     overflow-y: auto;
-    padding-bottom: 60px;
+    padding-bottom: 180px;
   }
   #newsletterContainer p {
     margin-left: 10%;
