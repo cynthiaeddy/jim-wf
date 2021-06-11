@@ -66,17 +66,6 @@
   padding-top: 3px;
 }
 
-/* .homeContainerMobile-credits {
-  width: 75%;
-} */
-
-/* @media (max-width: 900px) {
-  .homeContainerMobile-credits {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-} */
 @media (min-width: 540px) and (max-width: 900px) {
   .HomeContainerMobile {
     width: 70%;
@@ -102,6 +91,7 @@
   }
   .homeContainerMobile {
     width: 85vw;
+    padding-bottom: 200px;
   }
 
   .homeContainerMobile h5 {

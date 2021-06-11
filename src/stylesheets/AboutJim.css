@@ -84,13 +84,13 @@ img.AboutJim {
     width: 83vw;
     margin-top: 120px;
     overflow-y: scroll;
-    padding-bottom: 70px;
+    padding-bottom: 180px;
   }
 
   .aboutJimContainer-right-copy p {
     margin: 0;
     line-height: 1.5;
-    overflow: unset;
+    /* overflow: unset; */
   }
 
   .book {
