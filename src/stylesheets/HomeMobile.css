@@ -71,11 +71,11 @@
 }
 
 @media (min-width: 540px) and (max-width: 900px) {
-  .HomeContainerMobile {
+  .homeContainerMobile {
     width: 70%;
   }
 
-  .HomeContainerMobile {
+  .homeContainerMobile {
     margin-top: 205px;
   }
   .homeContainerMobile-credits {

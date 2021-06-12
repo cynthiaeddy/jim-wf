@@ -65,6 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 30;
 }
 #navBarToggle a {
   color: #fff;
@@ -107,22 +108,33 @@ ul.toggleNavBar {
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
-  .menu {
+  .navbarMenu {
     margin-top: 40px;
-  }
-  h3 {
-    margin-top: 110px;
   }
   h1 {
     font-size: 4.5rem;
   }
+  #navbarMobile {
+    height: 210px;
+  }
+  .navbarWorldFood {
+    line-height: 0.8;
+  }
 }
+
 @media (min-width: 540px) and (max-width: 899px) {
   #navbarHome {
     width: 70vw;
   }
   #navbarSocial {
     width: 11vw;
+  }
+  #navbarMobile.navbarHomeMobileHybrid {
+    width: 70%;
+  }
+
+  .navbarTitle h3 {
+    margin-top: 70px;
   }
 }
 
