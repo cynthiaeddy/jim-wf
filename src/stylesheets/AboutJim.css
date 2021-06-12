@@ -50,19 +50,19 @@
   margin-top: 12px;
 }
 
-/* img.AboutJim {
+img.AboutJim {
   height: 100%;
   object-fit: contain;
-} */
+}
 
-/* @media (min-width: 900px) and (max-width: 1199px) {
+@media (min-width: 900px) and (max-width: 1199px) {
   .aboutJimContainer {
     width: 80vw;
   }
   img.AboutJim {
     width: 95%;
   }
-} */
+}
 
 @media (max-width: 539px) {
   .aboutJimContainer.mobile-books {
