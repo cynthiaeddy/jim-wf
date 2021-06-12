@@ -90,7 +90,6 @@
   .aboutJimContainer-right-copy p {
     margin: 0;
     line-height: 1.5;
-    /* overflow: unset; */
   }
 
   .book {
@@ -101,6 +100,6 @@
 }
 @media (max-width: 400px) {
   .aboutJimContainer.mobile {
-    /* padding-bottom: 140px; */
+    padding-bottom: 140px;
   }
 }
