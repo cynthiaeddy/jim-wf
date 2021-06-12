@@ -65,6 +65,10 @@
   border: none;
   padding-top: 3px;
 }
+.signUpBtn.mobile:hover {
+  background: grey;
+  color: white;
+}
 
 @media (min-width: 540px) and (max-width: 900px) {
   .HomeContainerMobile {
@@ -111,7 +115,7 @@
   .homeContainerMobile {
     padding-bottom: 180px;
   }
-  .HomeContainerMobile-h5 {
+  .homeContainerMobile-h5 {
     margin-left: 12px;
   }
 }

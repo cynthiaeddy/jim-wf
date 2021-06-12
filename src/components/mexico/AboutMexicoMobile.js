@@ -1,6 +1,5 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import NavbarMexicoMobile from '../../navbars/navbarMexico/NavbarMexicoMobile'
 import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
 import '../../stylesheets/AboutMexico.css'
@@ -80,7 +79,6 @@ class AboutMexicoMobile extends React.Component {
             />
           </LazyLoad>
         </div>
-        <NavbarSocial />
       </div>
     )
   }

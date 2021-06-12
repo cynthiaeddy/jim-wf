@@ -1,7 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import { Link } from 'react-router-dom'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import NavbarHomeMobile from '../../navbars/navbarHome/NavbarHomeMobile'
 import LazyLoad from 'react-lazyload'
 import '../../stylesheets/HomeMobile.css'
@@ -11,7 +10,7 @@ const HomeMobile = () => {
     <div className='container'>
       <NavbarHomeMobile />
       <div className='homeContainerMobile'>
-        <h5 className='HomeContainerMobile-h5'>
+        <h5 className='homeContainerMobile-h5'>
           Introducing World Food, an exceptional new series in the tradition of
           classic cookbooks that take you on a journey to the world's greatest
           cuisines and the remarkable cultures they come from.
@@ -80,8 +79,6 @@ const HomeMobile = () => {
           </Link>
         </div>
       </div>
-
-      <NavbarSocial />
     </div>
   )
 }

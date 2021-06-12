@@ -1,17 +1,15 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import { Link } from 'react-router-dom'
-import NavbarHome from '../navbars/navbarHome/NavbarHome'
-import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
+import NavbarHome from '../../navbars/navbarHome/NavbarHome'
 
 import '../../stylesheets/Home.css'
 
 const Home = () => (
   <div className='container home'>
     <NavbarHome />
-    <NavbarSocial />
 
-    <div className='homeContainer '>
+    <div className='homeContainer-home'>
       <div className=' homeContainer-header'>
         <h3>James Oseland’s</h3>
         <h1>World Food</h1>
@@ -39,7 +37,7 @@ const Home = () => (
             alt='single piece of flan'></img>
         </div>
 
-        <div className='carousel-wrapper main '>
+        <div className='carousel-wrapper'>
           <Carousel
             showThumbs={false}
             infiniteLoop
@@ -81,7 +79,7 @@ const Home = () => (
             of classic cookbooks that takes you on a journey to the world’s
             greatest cuisines and the remarkable cultures they come from.
           </h5>
-          <Link to='/newsletter' className='signUpBtn'>
+          <Link to='/newsletter' className='signUpBtn '>
             NEWSLETTER SIGN UP
           </Link>
         </div>

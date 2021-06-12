@@ -1,5 +1,4 @@
 import React from 'react'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
 import '../../stylesheets/AboutJim.css'
 
@@ -126,7 +125,6 @@ const AboutJimMobile = () => {
           calls Mexico City home.
         </p>
       </div>
-      <NavbarSocial />
     </div>
   )
 }

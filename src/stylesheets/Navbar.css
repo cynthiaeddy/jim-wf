@@ -1,3 +1,15 @@
+#navbarHome,
+#navbar,
+#navbarMexico {
+  position: fixed;
+  display: flex;
+  width: 70vw;
+  height: 120px;
+  top: 50px;
+  justify-content: space-between;
+  z-index: 5;
+}
+
 #navbarMobile {
   position: fixed;
   flex-direction: column;
@@ -24,8 +36,10 @@
   font-size: 15px;
   margin-top: 10px;
 }
+.navbarHomeMenu {
+}
 
-#NavbarSocial {
+#navbarSocial {
   position: fixed;
   display: flex;
   width: 13.5vw;
@@ -64,16 +78,70 @@ ul.toggleNavBar {
   margin-bottom: 75px;
 }
 
-/* @media (min-width: 540px) and (max-width: 900px) {
-  #navbarMobile.navbarHomeMobileHybrid,
-  .aboutMexicoContainer-mobileAlt,
-  .HomeContainerMobile {
+/* //////// MEDIA QUERIES //////////// */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #navbarHome {
+    padding: 0;
+  }
+  #navbarSocial {
+    width: 11vw;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  #navbarSocial {
+    width: auto;
+    right: 3vw;
+  }
+  #navbarMexico {
+    width: 80vw;
+    padding: 0;
+  }
+  #navbarHome {
+    width: 80vw;
+  }
+  #navbar {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .menu {
+    margin-top: 40px;
+  }
+  h3 {
+    margin-top: 110px;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 899px) {
+  #navbarHome {
     width: 70vw;
   }
-} */
+  #navbarSocial {
+    width: 11vw;
+  }
+}
 
+@media (min-width: 540px) and (max-width: 600px) {
+  .menu {
+    margin-top: 40px;
+  }
+  h3 {
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  #navbarMobile {
+    padding: 0 15vw;
+  }
+}
 @media (max-width: 539px) {
-  #NavbarSocial {
+  #navbarSocial {
     width: 100vw;
     height: 80px;
     bottom: 0;

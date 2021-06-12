@@ -1,20 +1,13 @@
-.HomeContainer {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+.container.home {
   align-items: center;
-  position: fixed;
 }
 
-.HomeContainer-main {
+.homeContainer-main {
   display: grid;
   grid-template-columns: 0.95fr 0.95fr 1.1fr 1.1fr 0.95fr 0.95fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px 20px;
-  grid-template-areas: 'ltla ltra main main rtla copy' 'lmla lmra main main rmla copy' 'lbla lbra main main rbla copy';
+  grid-template-areas: 'ltla ltra carousel-wrapper carousel-wrapper rtla copy' 'lmla lmra carousel-wrapper carousel-wrapper rmla copy' 'lbla lbra carousel-wrapper carousel-wrapper rbla copy';
   max-width: 1260px;
 }
 
@@ -47,15 +40,12 @@
 }
 .copy {
   grid-area: copy;
-}
-.main {
-  grid-area: main;
-}
-
-.copy {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.carousel-wrapper {
+  grid-area: carousel-wrapper;
 }
 
 .signUpBtn {
@@ -67,7 +57,6 @@
   bottom: 0;
   font-weight: 500;
   font-family: franklin-gothic-atf, sans-serif;
-  font-style: normal;
   padding: 4px 20px;
   border: none;
   align-self: flex-end;
@@ -78,24 +67,24 @@
   color: white;
 }
 
-.HomeContainer-footer {
+.homeContainer-footer {
   display: flex;
   justify-content: space-between;
 }
 @media (min-width: 1400px) {
-  .HomeContainer-home {
+  .homeContainer-home {
     width: 66vw;
     max-width: 1260px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .HomeContainer-home {
+  .homeContainer-home {
     width: 70vw;
   }
 }
 
 @media (min-width: 901px) and (max-width: 1199px) {
-  .HomeContainer-home {
+  .homeContainer-home {
     width: 80vw;
   }
 }
