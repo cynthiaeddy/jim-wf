@@ -12,11 +12,11 @@
   max-width: 1260px;
 } */
 
-.aboutMexicoContainer.mobile {
+.aboutMexicoContainer-mobile {
   overflow-y: auto;
   width: 85vw;
   margin-top: 160px;
-  /* padding-bottom: 80px; */
+  padding-bottom: 180px;
 }
 .Images-spread,
 .Image-spread {
@@ -77,7 +77,7 @@ h2 span {
 } */
 
 @media (max-width: 400px) {
-  .aboutMexicoContainer.mobile {
-    /* padding-bottom: 210px; */
+  .aboutMexicoContainer-mobile {
+    padding-bottom: 160px;
   }
 }

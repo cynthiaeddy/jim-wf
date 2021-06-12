@@ -5,7 +5,7 @@
   /* padding-bottom: 90px; */
 }
 
-.homeContainerMobile.main {
+.homeContainerMobile-main {
   margin-top: 20px;
   display: grid;
   grid-template-columns: 0.9fr 1.1fr 1.1fr 0.9fr;
@@ -38,12 +38,12 @@
   grid-area: carousel-mobile;
 }
 
-.homeContainerMobile.footer {
+.homeContainerMobile-footer {
   margin-top: 10px;
   padding: 0;
   margin-bottom: 60px;
 }
-.homeContainerMobile.credits h2 {
+.homeContainerMobile-credits h2 {
   margin: 5px 0;
   text-align: center;
   font-size: 1.2rem;
@@ -60,25 +60,33 @@
   width: 100%;
   font-size: 14px;
   bottom: 0;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: franklin-gothic-atf, sans-serif;
+  font-style: normal;
   border: none;
   padding-top: 3px;
 }
-
-.homeContainerMobile.credits {
-  width: 75%;
+.signUpBtn.mobile:hover {
+  background: grey;
+  color: white;
 }
 
-@media (max-width: 900px) {
-  .homeContainerMobile.credits {
+@media (min-width: 540px) and (max-width: 900px) {
+  .homeContainerMobile {
+    width: 70%;
+  }
+
+  .homeContainerMobile {
+    margin-top: 205px;
+  }
+  .homeContainerMobile-credits {
     width: 100%;
     margin: 0;
     padding: 0;
   }
 }
-
 @media (max-width: 539px) {
-  .homeContainerMobile.main {
+  .homeContainerMobile-main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
     grid-gap: 10px;
@@ -88,6 +96,7 @@
   }
   .homeContainerMobile {
     width: 85vw;
+    padding-bottom: 200px;
   }
 
   .homeContainerMobile h5 {
@@ -100,14 +109,14 @@
   .homeContainerMobile h5 {
     margin-top: 0px;
   }
-
   h1 {
     font-size: 4.3rem;
     line-height: 0.7;
   }
-}
-@media (max-width: 400px) {
   .homeContainerMobile {
     /* padding-bottom: 170px; */
+  }
+  .homeContainerMobile-h5 {
+    margin-left: 12px;
   }
 }

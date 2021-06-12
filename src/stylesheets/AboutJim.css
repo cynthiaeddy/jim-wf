@@ -45,6 +45,7 @@
   font-size: 12px;
   font-family: franklin-gothic-atf, sans-serif;
   font-weight: 500;
+  font-style: normal;
   text-transform: uppercase;
   margin-top: 12px;
 }
@@ -83,10 +84,13 @@
     width: 83vw;
     margin-top: 120px;
     overflow-y: scroll;
-    /* padding-bottom: 70px; */
+    padding-bottom: 180px;
   }
-  .aboutJimContainer.mobile p {
-    margin-bottom: 60px;
+
+  .aboutJimContainer-right-copy p {
+    margin: 0;
+    line-height: 1.5;
+    /* overflow: unset; */
   }
 
   .book {

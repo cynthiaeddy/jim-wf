@@ -1,24 +1,22 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import { Link } from 'react-router-dom'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import NavbarHomeMobile from '../../navbars/navbarHome/NavbarHomeMobile'
 import LazyLoad from 'react-lazyload'
 import '../../stylesheets/HomeMobile.css'
-import '../../stylesheets/Universal.css'
 
 const HomeMobile = () => {
   return (
     <div className='container'>
       <NavbarHomeMobile />
       <div className='homeContainerMobile'>
-        <h5>
+        <h5 className='homeContainerMobile-h5'>
           Introducing World Food, an exceptional new series in the tradition of
           classic cookbooks that take you on a journey to the world's greatest
           cuisines and the remarkable cultures they come from.
         </h5>
         <LazyLoad>
-          <section className='homeContainerMobile main'>
+          <section className='homeContainerMobile-main'>
             <div className='ipadtl'>
               <img src='https://imgur.com/pFJCQVg.png' alt='gal with food' />
             </div>
@@ -62,8 +60,8 @@ const HomeMobile = () => {
             </div>
           </section>
         </LazyLoad>
-        <div className='homeContainerMobile footer'>
-          <div className='homeContainerMobile credits'>
+        <div className='homeContainerMobile-footer'>
+          <div className='homeContainerMobile-credits'>
             <h2>
               <a href='https://jamesroper.photoshelter.com/index'>
                 Photography by James Roper
@@ -81,8 +79,6 @@ const HomeMobile = () => {
           </Link>
         </div>
       </div>
-
-      <NavbarSocial />
     </div>
   )
 }

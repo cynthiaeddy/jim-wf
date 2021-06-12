@@ -3,7 +3,7 @@ import '../../stylesheets/Navbar.css'
 
 const NavbarSocial = () => {
   return (
-    <nav id='NavbarSocial'>
+    <nav id='navbarSocial'>
       <div className='social'>
         <div className='email'>
           <a href='mailto:james@jamesoseland.com'>

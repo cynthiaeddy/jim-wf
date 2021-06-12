@@ -4,9 +4,9 @@ import '../../stylesheets/Navbar.css'
 
 const NavbarHome = () => {
   return (
-    <nav id='NavbarHome'>
+    <nav id='navbarHome'>
       <Link to='/navbar'>
-        <h6>Menu</h6>
+        <h6 className='navbarHomeMenu'>Menu</h6>
       </Link>
     </nav>
   )

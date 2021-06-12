@@ -1,6 +1,5 @@
 import React from 'react'
 import Mailchimp from 'react-mailchimp-form'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
 import Navbar from '../../navbars/navbarMain/Navbar'
 import '../../stylesheets/Newsletter.css'
@@ -68,7 +67,6 @@ class Newsletter extends React.Component {
             <i className='fab fa-youtube fa-2x vid-button'></i>
           </div>
         </div>
-        <NavbarSocial />
       </div>
     )
   }

@@ -3,9 +3,13 @@ import './App.css'
 import { Route, Redirect } from 'react-router-dom'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
+import NavbarSocial from './navbars/navbarSocial/NavbarSocial'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 import HomeMobile from './components/home/HomeMobile'
+import Home from './components/home/Home'
+
 import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
+
 import Newsletter from './components/newsletter/Newsletter'
 
 class App extends React.Component {
@@ -39,11 +43,17 @@ class App extends React.Component {
     return (
       <div className='app'>
         <Route exact path='/navbar' component={NavBarToggle} />
-        <Route exact path='/' component={HomeMobile} />
+        {isMobile ? (
+          <Route exact path='/' component={HomeMobile} />
+        ) : (
+          <Route exact path='/' component={Home} />
+        )}
         <Route exact path='/about-james' component={AboutJimMobile} />
-        <Route exact path='/world-food' component={AboutMexicoMobile} />{' '}
+        <Route exact path='/world-food' component={AboutMexicoMobile} />
+
         <Route exact path='/newsletter' component={Newsletter} />
         {/* <Redirect to='/' /> */}
+        <NavbarSocial />
       </div>
     )
   }
