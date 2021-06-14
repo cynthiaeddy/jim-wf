@@ -4,7 +4,7 @@ import '../../stylesheets/Navbar.css'
 
 const NavbarMexicoMobile = () => {
   return (
-    <nav id='navbarMobile'>
+    <nav id='navbarMobile' className='navbarMexico'>
       <Link to='/navbar'>
         <h6 className='navbarMenu'>Menu</h6>
       </Link>

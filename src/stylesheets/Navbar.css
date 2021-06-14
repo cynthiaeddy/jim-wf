@@ -237,6 +237,9 @@ ul.toggleNavBar {
   #navbarMobile {
     width: 83vw;
   }
+  #navbarMobile.navbarMexico {
+    height: 150px;
+  }
 }
 @media (max-width: 400px) {
   .navbarWorldFood h1 {
