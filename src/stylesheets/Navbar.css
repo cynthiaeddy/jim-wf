@@ -19,6 +19,8 @@
   height: 130px;
   background: white;
   width: 85vw;
+  width: 70vw;
+
   z-index: 5;
 }
 
@@ -177,8 +179,12 @@ ul.toggleNavBar {
   #navbarSocial {
     width: 11vw;
   }
-  #navbarMobile.navbarHomeMobileHybrid {
-    width: 70%;
+  #navbarMobile.navbarHomeMobileHybrid,
+  #navbarMobile {
+    width: 70vw;
+  }
+  #navbarMobile {
+    height: 170px;
   }
 
   .navbarTitle h3 {
@@ -227,6 +233,9 @@ ul.toggleNavBar {
     font-weight: 400;
     font-size: 5.3rem;
     line-height: 0.7;
+  }
+  #navbarMobile {
+    width: 83vw;
   }
 }
 @media (max-width: 400px) {
