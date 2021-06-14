@@ -27,9 +27,12 @@
   height: fit-content;
 }
 
-.intro {
+.newsletterContainer-intro {
   position: relative;
   z-index: 3;
+}
+.newsletterContainer-intro p {
+  margin-top: 30px;
 }
 
 form {

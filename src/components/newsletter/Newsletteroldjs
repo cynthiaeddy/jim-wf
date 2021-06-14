@@ -29,7 +29,7 @@ class Newsletter extends React.Component {
       <div className='container'>
         {isMobile ? <NavbarMobile /> : <Navbar />}
 
-        <div id='newsletterContainer'>
+        <div className='newsletterContainer'>
           <div className='newsletterContainer-intro'>
             <p>
               For exclusive content, including videos and recipes, register for
@@ -60,11 +60,11 @@ class Newsletter extends React.Component {
               ]}
             />
           </div>
-          <div className='video'>
+          <div className='newsletterContainer-video'>
             <a href='https://www.youtube.com/watch?v=nz3aV1jgHIE'>
               <img src='https://imgur.com/T15YGXa.png' alt='video card' />
             </a>
-            <i className='fab fa-youtube fa-2x vid-button'></i>
+            <i className='fab fa-youtube fa-2x video-button'></i>
           </div>
         </div>
       </div>
