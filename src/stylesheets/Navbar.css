@@ -89,6 +89,15 @@ ul.toggleNavBar {
 
 /* //////// MEDIA QUERIES //////////// */
 
+@media (min-width: 1400px) {
+  #navbarHome,
+  #navbar,
+  #navbarMexico {
+    width: 66vw;
+    max-width: 1260px;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1399px) {
   #navbarHome {
     padding: 0;

@@ -1,7 +1,6 @@
 import React from 'react'
 import NavbarMexico from '../../navbars/navbarMexico/NavbarMexico'
 import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
 import imageData from '../carouselMexico/Images'
 import ForwardArrow from '../carouselMexico/ForwardArrow'
 import BackArrow from '../carouselMexico/BackArrow'
@@ -62,7 +61,6 @@ class AboutMexico extends React.Component {
       <div className='container'>
         {isBigMobile ? <NavbarMexicoMobileInt /> : <NavbarMexico />}
 
-        <NavbarSocial />
         <div className='aboutMexicoContainer'>
           <div className='l-arrow '>
             <BackArrow goToPrevSlide={() => this.goToPrevSlide()} />

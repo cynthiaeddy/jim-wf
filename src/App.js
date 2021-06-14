@@ -5,12 +5,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import NavbarSocial from './navbars/navbarSocial/NavbarSocial'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
+import AboutJim from './components/aboutJim/AboutJim'
 import HomeMobile from './components/home/HomeMobile'
 import Home from './components/home/Home'
-
 import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
 import AboutMexico from './components/mexico/AboutMexico'
-
 import Newsletter from './components/newsletter/Newsletter'
 
 class App extends React.Component {
@@ -54,7 +53,11 @@ class App extends React.Component {
         ) : (
           <Route exact path='/world-food' component={AboutMexico} />
         )}
-        <Route exact path='/about-james' component={AboutJimMobile} />
+        {isMobileJim ? (
+          <Route exact path='/about-james' component={AboutJimMobile} />
+        ) : (
+          <Route exact path='/about-james' component={AboutJim} />
+        )}
 
         <Route exact path='/newsletter' component={Newsletter} />
         {/* <Redirect to='/' /> */}
