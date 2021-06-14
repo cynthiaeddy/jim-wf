@@ -58,7 +58,7 @@ h2 span {
   overflow-y: auto;
   width: 83vw;
   margin-top: 160px;
-  padding-bottom: 180px;
+  padding-bottom: 140px;
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
@@ -99,7 +99,7 @@ h2 span {
 
 @media (max-width: 400px) {
   .aboutMexicoContainer-mobile {
-    padding-bottom: 160px;
-    width: 83vw;
+    /* padding-bottom: 160px; */
+    padding-bottom: 120px;
   }
 }
