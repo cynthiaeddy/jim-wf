@@ -1,4 +1,4 @@
-/* .aboutMexicoContainer {
+.aboutMexicoContainer {
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
   grid-template-rows: 1fr;
@@ -7,45 +7,31 @@
   width: 72vw;
   max-width: 1080px;
   margin-top: 90px;
-  grid-template-areas: 'l-arrow main r-arrow';
+  grid-template-areas: 'l-arrow aboutMexicoContainer-main r-arrow';
   max-width: 1400px;
   max-width: 1260px;
-} */
-
-.aboutMexicoContainer-mobile {
-  overflow-y: auto;
-  width: 85vw;
-  margin-top: 160px;
-  padding-bottom: 180px;
 }
-.Images-spread,
-.Image-spread {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+.aboutMexicoContainer-main {
+  grid-area: aboutMexicoContainer-main;
 }
-.Image-spread:last-child {
-  margin-bottom: 60px;
-}
-
-.Images-spread.mexico-opener {
-  border: none;
-}
-
 .l-arrow {
   grid-area: l-arrow;
-}
-.main {
-  grid-area: main;
 }
 .r-arrow {
   grid-area: r-arrow;
   justify-self: start;
 }
 
-.Slide-active {
+.arrow h2 {
+  font-size: 1.2rem;
+}
+.arrow h2 span {
+  margin: 2px;
+}
+.slide-active {
   display: block;
 }
-.Slide-sliding {
+.slide-sliding {
   display: none;
   text-align: center;
 }
@@ -55,8 +41,27 @@
 h2 span {
   margin: 5px;
 }
+.images-spread,
+.image-spread {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.image-spread:last-child {
+  margin-bottom: 60px;
+}
 
-/* @media (min-width: 900px) and (max-width: 1199px) {
+.images-spread.mexico-opener {
+  border: none;
+}
+
+.aboutMexicoContainer-mobile {
+  overflow-y: auto;
+  width: 83vw;
+  margin-top: 160px;
+  padding-bottom: 180px;
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
   .aboutMexicoContainer {
     width: 80vw;
   }
@@ -67,17 +72,34 @@ h2 span {
     width: 80vw;
     grid-gap: 10px;
   }
-
-  .arrow h2 {
-    font-size: 1.2rem;
+}
+@media (min-width: 699px) and (max-width: 760px) {
+  .aboutMexicoContainer-mobile {
+    margin-top: 130px;
   }
-  .arrow h2 span {
-    margin: 2px;
+}
+@media (min-width: 540px) and (max-width: 900px) {
+  .aboutMexicoContainer-mobile {
+    width: 70vw;
   }
-} */
+}
+@media (min-width: 540px) and (max-width: 698px) {
+  .aboutMexicoContainer-mobile {
+    margin-top: 180px;
+  }
+  .aboutMexicoContainer-mobile.slide-active {
+    margin-top: 180px;
+  }
+}
+@media (min-width: 539px) and (max-width: 760px) {
+  .aboutMexicoContainer-mobile {
+    width: 70vw;
+  }
+}
 
 @media (max-width: 400px) {
   .aboutMexicoContainer-mobile {
     padding-bottom: 160px;
+    width: 83vw;
   }
 }

@@ -6,7 +6,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/x9LiUrY.png'
-        className='Images-spread mexico-opener'
+        className='images-spread mexico-opener'
         alt='mexico cover'></img>
     ),
   },
@@ -14,7 +14,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/ZgGRhRt.png'
-        className='Images-spread'
+        className='images-spread'
         alt='cacti spread'></img>
     ),
   },
@@ -22,7 +22,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/jPjrPeU.png'
-        className='Images-spread'
+        className='images-spread'
         alt='family gathering'></img>
     ),
   },
@@ -30,7 +30,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/51tn7cd.png'
-        className='Images-spread'
+        className='images-spread'
         alt='tostadas'></img>
     ),
   },
@@ -38,7 +38,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/7MzW9c6.png'
-        className='Images-spread'
+        className='images-spread'
         alt='flautas'></img>
     ),
   },
@@ -46,7 +46,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/gFsv1GF.png'
-        className='Images-spread'
+        className='images-spread'
         alt='chef owner'></img>
     ),
   },
@@ -54,7 +54,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/NrZ884y.png'
-        className='Images-spread'
+        className='images-spread'
         alt='making tortillas'></img>
     ),
   },
@@ -62,7 +62,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/j4prFfU.png'
-        className='Images-spread'
+        className='images-spread'
         alt='city dusk scene'></img>
     ),
   },
@@ -70,7 +70,7 @@ const Images = [
     img: (
       <img
         src='https://imgur.com/gmv8QqP.png'
-        className='Images-spread'
+        className='images-spread'
         alt='couple dancing'></img>
     ),
   },

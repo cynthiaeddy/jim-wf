@@ -22,6 +22,30 @@
   z-index: 5;
 }
 
+/* #NavbarMexicoMobile,
+#NavbarJimMobile {
+  position: fixed;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: flex-end;
+  text-align: right;
+  height: 160px;
+  justify-content: initial;
+  background: white;
+  width: 100vw;
+  padding: 0 7.5vw 0 9vw;
+  z-index: 5;
+} */
+
+#navbarMexicoMobileInt {
+  position: fixed;
+  display: flex;
+  width: 70vw;
+  height: 90px;
+  top: 50px;
+  justify-content: space-between;
+  z-index: 5;
+}
 .navbarTitle {
   margin-top: 25px;
 }
@@ -35,8 +59,6 @@
   letter-spacing: 2px;
   font-size: 15px;
   margin-top: 10px;
-}
-.navbarHomeMenu {
 }
 
 #navbarSocial {
@@ -106,6 +128,32 @@ ul.toggleNavBar {
     width: 80vw;
   }
 }
+@media (min-width: 788px) and (max-width: 840px) {
+  #navbarMexicoMobileInt {
+    flex-wrap: wrap;
+  }
+  #navbarMexicoMobileInt::after {
+    content: '';
+    width: 100%;
+  }
+  .mobileInt:last-child {
+    margin-left: auto;
+    order: 1;
+  }
+}
+
+@media (min-width: 699px) and (max-width: 785px) {
+  #navbarMexicoMobileInt {
+    flex-wrap: wrap;
+  }
+
+  .navbarMexicoMobileInt {
+    margin-left: auto;
+  }
+  .navbarMexicoMobileInt.navbarBuy.mobileInt {
+    margin-top: -20px;
+  }
+}
 
 @media (min-width: 601px) and (max-width: 900px) {
   .navbarMenu {
@@ -149,9 +197,16 @@ ul.toggleNavBar {
     font-size: 4.5rem;
   }
   #navbarMobile {
-    padding: 0 15vw;
+    width: 70vw;
   }
 }
+
+@media (min-width: 539px) and (max-width: 760px) {
+  #navbarMexicoMobile {
+    width: 70vw;
+  }
+}
+
 @media (max-width: 539px) {
   #navbarSocial {
     width: 100vw;

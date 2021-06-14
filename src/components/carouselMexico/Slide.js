@@ -14,8 +14,8 @@ class Slide extends React.Component {
           <div
             className={
               index === this.props.activeIndex
-                ? 'Slide-active'
-                : 'Slide-sliding'
+                ? 'slide-active'
+                : 'slide-sliding'
             }
             key={index}>
             {s.img}
