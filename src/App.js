@@ -9,6 +9,7 @@ import HomeMobile from './components/home/HomeMobile'
 import Home from './components/home/Home'
 
 import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
+import AboutMexico from './components/mexico/AboutMexico'
 
 import Newsletter from './components/newsletter/Newsletter'
 
@@ -48,8 +49,12 @@ class App extends React.Component {
         ) : (
           <Route exact path='/' component={Home} />
         )}
+        {isMobileMexico ? (
+          <Route exact path='/world-food' component={AboutMexicoMobile} />
+        ) : (
+          <Route exact path='/world-food' component={AboutMexico} />
+        )}
         <Route exact path='/about-james' component={AboutJimMobile} />
-        <Route exact path='/world-food' component={AboutMexicoMobile} />
 
         <Route exact path='/newsletter' component={Newsletter} />
         {/* <Redirect to='/' /> */}

@@ -34,47 +34,47 @@ class AboutMexicoMobile extends React.Component {
           <LazyLoad>
             <img
               src='https://imgur.com/m0fagzo.png'
-              className='Image-spread '
+              className='image-spread '
               alt='mexico cover'
             />
             <img
               src='https://imgur.com/ZgGRhRt.png'
-              className='Image-spread'
+              className='image-spread'
               alt='cacti spread'
             />
             <img
               src='https://imgur.com/jPjrPeU.png'
-              className='Image-spread'
+              className='image-spread'
               alt='family gathering'
             />
             <img
               src='https://imgur.com/51tn7cd.png'
-              className='Image-spread'
+              className='image-spread'
               alt='tostadas'
             />
             <img
               src='https://imgur.com/7MzW9c6.png'
-              className='Image-spread'
+              className='image-spread'
               alt='flautas'
             />
             <img
               src='https://imgur.com/gFsv1GF.png'
-              className='Image-spread'
+              className='image-spread'
               alt='chef owner'
             />
             <img
               src='https://imgur.com/NrZ884y.png'
-              className='Image-spread'
+              className='image-spread'
               alt='making tortillas'
             />
             <img
               src='https://imgur.com/j4prFfU.png'
-              className='Image-spread'
+              className='image-spread'
               alt='city dusk scene'
             />
             <img
               src='https://imgur.com/gmv8QqP.png'
-              className='Image-spread'
+              className='image-spread'
               alt='couple dancing'
             />
           </LazyLoad>
