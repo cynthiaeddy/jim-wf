@@ -4,11 +4,11 @@ import '../../stylesheets/Navbar.css'
 
 const NavbarMexico = () => {
   return (
-    <nav id='NavbarMexico'>
+    <nav id='navbarMexico'>
       <Link to='/navbar'>
         <h6>Menu</h6>
       </Link>
-      <div className='buyNav'>
+      <div className='navbarBuy'>
         <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850'>
           Purchase the Book
         </a>

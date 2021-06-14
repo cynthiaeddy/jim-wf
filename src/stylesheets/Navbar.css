@@ -20,24 +20,8 @@
   background: white;
   width: 85vw;
   width: 70vw;
-
   z-index: 5;
 }
-
-/* #NavbarMexicoMobile,
-#NavbarJimMobile {
-  position: fixed;
-  flex-direction: column;
-  margin-top: 0;
-  align-items: flex-end;
-  text-align: right;
-  height: 160px;
-  justify-content: initial;
-  background: white;
-  width: 100vw;
-  padding: 0 7.5vw 0 9vw;
-  z-index: 5;
-} */
 
 #navbarMexicoMobileInt {
   position: fixed;
@@ -128,6 +112,11 @@ ul.toggleNavBar {
   }
   #navbar {
     width: 80vw;
+  }
+}
+@media (min-width: 841px) {
+  .navbarBuy {
+    margin-top: 3px;
   }
 }
 @media (min-width: 788px) and (max-width: 840px) {

@@ -65,31 +65,30 @@ img.AboutJim {
 }
 
 @media (max-width: 539px) {
-  .aboutJimContainer.mobile-books {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
-  .aboutJimContainer.mobile-left {
-    width: 30%;
-  }
-  .aboutJimContainer.mobile-right {
-    width: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-  }
-
-  .aboutJimContainer.mobile {
+  .aboutJimContainer-mobile {
     width: 83vw;
     margin-top: 120px;
     overflow-y: scroll;
     padding-bottom: 180px;
   }
-
-  .aboutJimContainer-right-copy p {
+  .aboutJimContainer-mobile.books {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .aboutJimContainer-mobile.left {
+    width: 30%;
     margin: 0;
-    line-height: 1.5;
+    padding: 0;
+  }
+  .aboutJimContainer-mobile.right {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
   }
 
   .book {
@@ -99,7 +98,7 @@ img.AboutJim {
   }
 }
 @media (max-width: 400px) {
-  .aboutJimContainer.mobile {
+  .aboutJimContainer-mobile {
     padding-bottom: 140px;
   }
 }

@@ -7,16 +7,16 @@ const AboutJimMobile = () => {
     <div className='container'>
       <NavbarMobile />
 
-      <div className='aboutJimContainer mobile'>
-        <div className='aboutJimContainer mobile-books'>
-          <div className='aboutJimContainer mobile-left'>
+      <div className='aboutJimContainer-mobile'>
+        <div className='aboutJimContainer-mobile books'>
+          <div className='aboutJimContainer-mobile left'>
             <img
               src='https://imgur.com/Mx87EXE.png'
               className='AboutJim'
               alt='jim'
             />
           </div>
-          <div className='aboutJimContainer mobile-right'>
+          <div className='aboutJimContainer-mobile right'>
             <div className='book'>
               <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1'>
                 <img
@@ -30,7 +30,7 @@ const AboutJimMobile = () => {
             </div>
 
             <div className='book'>
-              <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=aboutJimContainer-right-books&sr=1-2'>
+              <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=books&sr=1-2'>
                 <img
                   src='https://imgur.com/FmvS9sX.png'
                   alt='paris book cover'
