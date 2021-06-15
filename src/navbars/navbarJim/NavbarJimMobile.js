@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/NavbarCopy.css'
 
-const NavbarJimMerge = () => {
+const NavbarJimMobile = () => {
   return (
     <nav id='navbarJimMobile'>
       <Link to='/navbar'>
@@ -18,4 +18,4 @@ const NavbarJimMerge = () => {
   )
 }
 
-export default NavbarJimMerge
+export default NavbarJimMobile

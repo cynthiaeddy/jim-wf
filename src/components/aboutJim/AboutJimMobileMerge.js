@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
-import '../../stylesheets/AboutJimCopy.css'
+import '../../stylesheets/AboutCopy.css'
 
 const AboutJimMobileMerge = () => {
   return (

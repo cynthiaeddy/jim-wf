@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../navbars/navbarMain/Navbar'
 import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
-import '../../stylesheets/AboutJimMerge.css'
+import '../../stylesheets/AboutJim.css'
 
 class AboutJim extends React.Component {
   state = {
