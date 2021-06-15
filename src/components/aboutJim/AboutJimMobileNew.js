@@ -2,21 +2,21 @@ import React from 'react'
 import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
 import '../../stylesheets/AboutJimNew.css'
 
-const AboutJimMobile = () => {
+const AboutJimMobileNew = () => {
   return (
     <div className='container'>
       <NavbarMobile />
 
       <div className='aboutJimContainer-mobile'>
-        <div className='aboutJimContainer-mobile-books'>
-          <div className='aboutJimContainer-mobile-left'>
+        <div className='aboutJimContainer-mobile books'>
+          <div className='aboutJimContainer-mobile left'>
             <img
               src='https://imgur.com/Mx87EXE.png'
               className='aboutJim'
               alt='jim'
             />
           </div>
-          <div className='aboutJimContainer-mobile-right'>
+          <div className='aboutJimContainer-mobile right'>
             <div className='book'>
               <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1'>
                 <img
@@ -129,4 +129,4 @@ const AboutJimMobile = () => {
   )
 }
 
-export default AboutJimMobile
+export default AboutJimMobileNew
