@@ -13,7 +13,6 @@ import AboutMexico from './components/mexico/AboutMexico'
 import Newsletter from './components/newsletter/Newsletter'
 
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
-import AboutJimMobileMerge from './components/aboutJim/AboutJimMobileMerge'
 
 class App extends React.Component {
   state = {
@@ -57,28 +56,9 @@ class App extends React.Component {
           <Route exact path='/world-food' component={AboutMexico} />
         )}
         {isMobileJim ? (
-          <Route exact path='/about-james' component={AboutJimMobile} />
+          <Route exact path='/about-james' component={AboutJimMobileCopy} />
         ) : (
           <Route exact path='/about-james' component={AboutJim} />
-        )}
-
-        {isMobileJim ? (
-          <Route
-            exact
-            path='/about-james-copy'
-            component={AboutJimMobileCopy}
-          />
-        ) : (
-          <Route exact path='/about-james-copy' component={AboutJim} />
-        )}
-        {isMobileJim ? (
-          <Route
-            exact
-            path='/about-james-merge'
-            component={AboutJimMobileMerge}
-          />
-        ) : (
-          <Route exact path='/about-james-merge' component={AboutJim} />
         )}
 
         <Route exact path='/newsletter' component={Newsletter} />

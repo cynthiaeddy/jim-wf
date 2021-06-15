@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
-import '../../stylesheets/Universal.css'
+// import '../../stylesheets/Universal.css'
 
 const NavbarMexicoMobileInt = () => {
   return (
