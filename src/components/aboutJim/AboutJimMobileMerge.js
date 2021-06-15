@@ -1,12 +1,12 @@
 import React from 'react'
 
-import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
+import NavbarJimMerge from '../../navbars/navbarJim/NavbarJimMerge'
 import '../../stylesheets/AboutCopy.css'
 
 const AboutJimMobileMerge = () => {
   return (
     <div className='container'>
-      <NavbarMobile />
+      <NavbarJimMerge />
 
       <div className='jim-container-mobile'>
         <div className='books'>
