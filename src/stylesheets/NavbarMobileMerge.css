@@ -1,0 +1,44 @@
+#navbarJimMobile {
+  position: fixed;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: flex-end;
+  text-align: right;
+  height: 130px;
+  justify-content: initial;
+  background: white;
+  width: 83vw;
+  z-index: 5;
+  padding: 0;
+}
+.jim {
+  margin-top: 25px;
+}
+/* h6.jim {
+  margin-top: 25px;
+} */
+
+h6.menu {
+  margin-top: 20px;
+  text-align: left;
+}
+
+@media (min-width: 540px) and (max-width: 600px) {
+  h6.menu {
+    margin-top: 40px;
+  }
+
+  #navbarJimMobile {
+    width: 85vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  h6.menu {
+    margin-top: 40px;
+  }
+
+  .mobile-container {
+    position: fixed;
+  }
+}

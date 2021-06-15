@@ -134,18 +134,18 @@ img.aboutJim {
     overflow-y: scroll;
     padding-bottom: 200px;
   }
-  .aboutJimContainer-mobile.books {
+  .aboutJimContainer-mobile-books {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     padding: 0;
   }
-  .aboutJimContainer-mobile.left {
+  .aboutJimContainer-mobile-left {
     width: 30%;
     /* margin: 0;
     padding: 0; */
   }
-  .aboutJimContainer-mobile.right {
+  .aboutJimContainer-mobile.-ight {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
