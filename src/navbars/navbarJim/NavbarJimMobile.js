@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../../stylesheets/NavbarCopy.css'
+import '../../stylesheets/NavbarJimMobile.css'
 
 const NavbarJimMobile = () => {
   return (

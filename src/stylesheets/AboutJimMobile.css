@@ -111,10 +111,6 @@ img.jim-img {
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-  #navbar {
-    width: 80vw;
-    padding: 0;
-  }
   .jim-container {
     width: 80vw;
   }
@@ -122,11 +118,7 @@ img.jim-img {
     width: 95%;
   }
 }
-/* @media (width: 540px) {
-  img.jim-img {
-    width: 95%;
-  }
-} */
+
 @media (min-width: 540px) and (max-width: 899px) {
   .jim-right {
     margin-bottom: 80px;
@@ -180,24 +172,5 @@ img.jim-img {
     object-fit: cover;
     margin-bottom: 5px;
     width: 40%;
-  }
-
-  #navbarSocial {
-    width: 100vw;
-    height: 80px;
-    bottom: 0;
-    top: unset;
-    z-index: 25;
-    background: #fff;
-    justify-content: center;
-  }
-  .social {
-    flex-direction: row;
-  }
-}
-@media (max-width: 320px) {
-  .jim-container-mobile {
-    /* padding-bottom: 85px; */
-    padding-bottom: 80px;
   }
 }
