@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../../stylesheets/NavbarCopy.css'
+import '../../stylesheets/NavbarCopyMerge.css'
 
 const NavbarJimMerge = () => {
   return (

@@ -1,0 +1,57 @@
+#navbarJimMobile {
+  position: fixed;
+  flex-direction: column;
+  margin-top: 0;
+  align-items: flex-end;
+  text-align: right;
+  height: 130px;
+  justify-content: initial;
+  background: white;
+  width: 83vw;
+  z-index: 5;
+  padding: 0;
+}
+
+h6.jim {
+  margin-top: 25px;
+}
+
+h6.menu {
+  margin-top: 20px;
+  text-align: left;
+}
+.jim {
+  margin-top: 25px;
+}
+/* @media (min-width: 540px) and (max-width: 600px) {
+  #navbarJimMobile {
+    padding: 0 15vw;
+  }
+} */
+@media (min-width: 601px) and (max-width: 900px) {
+  h6.menu {
+    margin-top: 40px;
+  }
+}
+
+/* /////horizontal mobile ////// */
+/* @media (max-height: 540px) and (max-width: 899px) {
+  #navbarJimMobile {
+    height: 100px;
+  }
+  #toggle-container h4 {
+    line-height: 1;
+  }
+  #navbarHomeMobile {
+    height: 130px;
+  }
+  #navbarHomeMobile h3 {
+    margin-top: 0px;
+  }
+  #navbarMexicoMobile .mexico-right {
+    top: 20px;
+  }
+  nav#navbarMexicoMobile {
+    height: 140px;
+  }
+} */
