@@ -141,7 +141,7 @@ img.aboutJim {
     width: 83vw;
     margin-top: 120px;
     overflow-y: scroll;
-    padding-bottom: 180px;
+    padding-bottom: 200px;
   }
   .aboutJimContainer-mobile.books {
     display: flex;
@@ -171,6 +171,7 @@ img.aboutJim {
 }
 @media (max-width: 400px) {
   .aboutJimContainer-mobile {
-    padding-bottom: 140px;
+    /* padding-bottom: 140px; */
+    padding-bottom: 210px;
   }
 }

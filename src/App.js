@@ -14,6 +14,7 @@ import Newsletter from './components/newsletter/Newsletter'
 
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
 import AboutJimMobileMerge from './components/aboutJim/AboutJimMobileMerge'
+import AboutJimMobileNew from './components/aboutJim/AboutJimMobileNew'
 
 class App extends React.Component {
   state = {

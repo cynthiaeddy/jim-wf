@@ -1,4 +1,4 @@
-.jim-container {
+.aboutJimContainer {
   display: flex;
   justify-content: center;
   width: 70vw;
@@ -7,21 +7,27 @@
   height: 90vh;
 }
 
-.jim-left {
+.aboutJimContainer-left {
   max-width: 640px;
   width: 49%;
   align-self: center;
   height: 100%;
 }
-.jim-right {
+.aboutJimContainer-right {
   width: 50%;
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   margin-top: 90px;
 }
+/* .aboutJimContainer-right-copy {
+  position: relative;
+} */
+span {
+  text-transform: uppercase;
+}
 
-.copys p {
+p {
   margin: 0 5px;
   height: 44.5vh;
   overflow: auto;
@@ -29,16 +35,7 @@
   margin-bottom: 0px;
 }
 
-p::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-p {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-.books {
+.aboutJimContainer-right-books {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -47,13 +44,14 @@ p {
   margin: 0 5px;
   transition: 0.5s ease;
   backface-visibility: hidden;
-}
-
-.copys {
   position: relative;
 }
-.copys span {
-  text-transform: uppercase;
+
+.book:hover img {
+  opacity: 0.5;
+}
+.book:hover .middle {
+  opacity: 1;
 }
 .down-arrow {
   position: absolute;
@@ -68,9 +66,6 @@ p {
   margin: 10px;
 }
 
-.book {
-  position: relative;
-}
 .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -85,50 +80,43 @@ p {
   border-radius: 50%;
   background-color: black;
 }
-.book:hover img {
-  opacity: 0.5;
-}
-.book:hover .middle {
-  opacity: 1;
-}
 
 .text {
   color: white;
   font-size: 12px;
   font-family: franklin-gothic-atf, sans-serif;
   font-weight: 500;
+  font-style: normal;
   text-transform: uppercase;
   margin-top: 12px;
 }
 
-img.jim-img {
+img.aboutJim {
   height: 100%;
   object-fit: contain;
 }
 
-.jim-container-mobile.mobile-alt {
-  margin-top: 160px;
+@media (min-width: 900px) and (max-width: 1199px) {
+  .aboutJimContainer {
+    width: 80vw;
+  }
+  img.aboutJim {
+    width: 95%;
+  }
 }
 
-@media (min-width: 900px) and (max-width: 1199px) {
-  #navbar {
-    width: 80vw;
-    padding: 0;
-  }
-  .jim-container {
-    width: 80vw;
-  }
-  img.jim-img {
-    width: 95%;
-  }
-}
-/* @media (width: 540px) {
-  img.jim-img {
-    width: 95%;
-  }
-} */
 @media (min-width: 540px) and (max-width: 899px) {
-  .jim-right {
+  .aboutJimContainer {
+    width: 80vw;
+  }
+  .aboutJimContainer-left {
+    width: 38%;
+  }
+  img.aboutJim.img {
+    object-fit: contain;
+    width: 95%;
+  }
+  .aboutJimContainer-right {
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -137,67 +125,44 @@ img.jim-img {
     margin-left: 20px;
     margin-right: 25px;
   }
-  .jim-container {
-    width: 80vw;
-  }
-  .jim-left {
-    width: 38%;
-  }
-  img .jim-img {
-    object-fit: contain;
-    width: 95%;
-  }
 }
+
 @media (max-width: 539px) {
-  .books {
+  .aboutJimContainer-mobile {
+    width: 83vw;
+    margin-top: 120px;
+    overflow-y: scroll;
+    padding-bottom: 200px;
+  }
+  .aboutJimContainer-mobile.books {
     display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0;
   }
-  .mobile-jim-left {
+  .aboutJimContainer-mobile.left {
     width: 30%;
+    /* margin: 0;
+    padding: 0; */
   }
-  .mobile-jim-right {
+  .aboutJimContainer-mobile.right {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
-  }
-
-  .jim-container-mobile {
-    width: 83vw;
-    margin-top: 120px;
-    overflow-y: scroll;
-    padding-bottom: 210px;
-  }
-
-  p {
-    margin: 0;
-    line-height: 1.5;
-    overflow: unset;
+    /* margin: 0;
+    padding: 0; */
   }
 
   .book {
     object-fit: cover;
-    object-fit: cover;
     margin-bottom: 5px;
     width: 40%;
   }
-
-  #navbarSocial {
-    width: 100vw;
-    height: 80px;
-    bottom: 0;
-    top: unset;
-    z-index: 25;
-    background: #fff;
-    justify-content: center;
-  }
-  .social {
-    flex-direction: row;
-  }
 }
-@media (max-width: 320px) {
-  .jim-container-mobile {
-    /* padding-bottom: 85px; */
-    padding-bottom: 80px;
+@media (max-width: 400px) {
+  .aboutJimContainer-mobile {
+    /* padding-bottom: 140px; */
+    padding-bottom: 210px;
   }
 }
