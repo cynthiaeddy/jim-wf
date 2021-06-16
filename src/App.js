@@ -10,6 +10,8 @@ import HomeMobile from './components/home/HomeMobile'
 import Home from './components/home/Home'
 import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
 import AboutMexico from './components/mexico/AboutMexico'
+import AboutParisMobile from './components/paris/AboutParisMobile'
+import AboutParis from './components/paris/AboutParis'
 import Newsletter from './components/newsletter/Newsletter'
 
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
@@ -38,6 +40,8 @@ class App extends React.Component {
 
     let isMobileMexico
     if (width <= 760) isMobileMexico = true
+    let isMobileParis
+    if (width <= 760) isMobileParis = true
 
     let isMobileJim
     if (width <= 539) isMobileJim = true
@@ -51,9 +55,18 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
         )}
         {isMobileMexico ? (
-          <Route exact path='/world-food' component={AboutMexicoMobile} />
+          <Route
+            exact
+            path='/world-food-mexico'
+            component={AboutMexicoMobile}
+          />
         ) : (
-          <Route exact path='/world-food' component={AboutMexico} />
+          <Route exact path='/world-food-mexico' component={AboutMexico} />
+        )}
+        {isMobileParis ? (
+          <Route exact path='/world-food-paris' component={AboutParisMobile} />
+        ) : (
+          <Route exact path='/world-food-paris' component={AboutParis} />
         )}
         {isMobileJim ? (
           <Route exact path='/about-james' component={AboutJimMobileCopy} />

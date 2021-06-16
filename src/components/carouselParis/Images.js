@@ -7,7 +7,8 @@ const Images = [
       <img
         src='https://imgur.com/Goh5CJu.png'
         className='images-spread paris-opener'
-        alt='paris cover'></img>
+        alt='paris cover'
+      />
     ),
   },
   {
@@ -15,7 +16,8 @@ const Images = [
       <img
         src='https://imgur.com/AG47vZv.jpg'
         className='images-spread'
-        alt='park spread'></img>
+        alt='park spread'
+      />
     ),
   },
   {
@@ -23,7 +25,8 @@ const Images = [
       <img
         src='https://imgur.com/GeTVIXU.png'
         className='images-spread'
-        alt='other park spread'></img>
+        alt='other park spread'
+      />
     ),
   },
   {
@@ -31,7 +34,8 @@ const Images = [
       <img
         src='https://imgur.com/58CEeOw.png'
         className='images-spread'
-        alt='chef at home'></img>
+        alt='chef at home'
+      />
     ),
   },
   {
@@ -39,7 +43,8 @@ const Images = [
       <img
         src='https://imgur.com/nnorFVz.png'
         className='images-spread'
-        alt='waiter'></img>
+        alt='waiter'
+      />
     ),
   },
   {
@@ -47,7 +52,8 @@ const Images = [
       <img
         src='https://imgur.com/LTNOm3M.png'
         className='images-spread'
-        alt='paris and food'></img>
+        alt='paris and food'
+      />
     ),
   },
   {
@@ -55,7 +61,8 @@ const Images = [
       <img
         src='https://imgur.com/CSkcLup.png'
         className='images-spread'
-        alt='market'></img>
+        alt='market'
+      />
     ),
   },
   {
@@ -63,7 +70,8 @@ const Images = [
       <img
         src='https://imgur.com/iTXVcpf.png'
         className='images-spread'
-        alt='girl at cafe'></img>
+        alt='girl at cafe'
+      />
     ),
   },
   {
@@ -71,7 +79,8 @@ const Images = [
       <img
         src='https://imgur.com/UswFLRh.png'
         className='images-spread'
-        alt='girl chefs'></img>
+        alt='girl chefs'
+      />
     ),
   },
   {
@@ -79,7 +88,8 @@ const Images = [
       <img
         src='https://imgur.com/DrRCHsx.png'
         className='images-spread'
-        alt='flowers spread'></img>
+        alt='flowers spread'
+      />
     ),
   },
   {
@@ -87,7 +97,8 @@ const Images = [
       <img
         src='https://imgur.com/U0aEoTl.png'
         className='images-spread'
-        alt='young chef'></img>
+        alt='young chef'
+      />
     ),
   },
   {
@@ -95,7 +106,8 @@ const Images = [
       <img
         src='https://imgur.com/gyoRUev.png'
         className='images-spread'
-        alt='radishes'></img>
+        alt='radishes'
+      />
     ),
   },
   {
@@ -103,7 +115,8 @@ const Images = [
       <img
         src='https://imgur.com/jJaI89t.png'
         className='images-spread'
-        alt='oysters'></img>
+        alt='oysters'
+      />
     ),
   },
 ]

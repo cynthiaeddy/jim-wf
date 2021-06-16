@@ -61,11 +61,11 @@ class AboutParis extends React.Component {
       <div className='container'>
         {isBigMobile ? <NavbarMexicoMobileInt /> : <NavbarMexico />}
 
-        <div className='aboutMexicoContainer'>
+        <div className='aboutParisContainer'>
           <div className='l-arrow '>
             <BackArrow goToPrevSlide={() => this.goToPrevSlide()} />
           </div>
-          <div className='aboutMexicoContainer-main'>
+          <div className='aboutParisContainer-main'>
             <Slide
               activeIndex={this.state.activeIndex}
               goToNextSlide={() => this.goToNextSlide()}

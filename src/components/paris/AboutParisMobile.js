@@ -2,9 +2,9 @@ import React from 'react'
 import LazyLoad from 'react-lazyload'
 import NavbarMexicoMobile from '../../navbars/navbarMexico/NavbarMexicoMobile'
 import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
-import '../../stylesheets/AboutMexico.css'
+import '../../stylesheets/AboutParis.css'
 
-class AboutMexicoMobile extends React.Component {
+class AboutParisMobile extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -30,52 +30,72 @@ class AboutMexicoMobile extends React.Component {
       <div className='container'>
         {isBigMobile ? <NavbarMexicoMobileInt /> : <NavbarMexicoMobile />}
 
-        <div className='aboutMexicoContainer-mobile'>
+        <div className='aboutParisContainer-mobile'>
           <LazyLoad>
             <img
-              src='https://imgur.com/m0fagzo.png'
-              className='image-spread '
-              alt='mexico cover'
+              src='https://imgur.com/Goh5CJu.png'
+              className='images-spread paris-opener'
+              alt='paris cover'
             />
             <img
-              src='https://imgur.com/ZgGRhRt.png'
-              className='image-spread'
-              alt='cacti spread'
+              src='https://imgur.com/AG47vZv.jpg'
+              className='images-spread'
+              alt='park spread'
             />
             <img
-              src='https://imgur.com/jPjrPeU.png'
-              className='image-spread'
-              alt='family gathering'
+              src='https://imgur.com/GeTVIXU.png'
+              className='images-spread'
+              alt='other park spread'
             />
             <img
-              src='https://imgur.com/51tn7cd.png'
-              className='image-spread'
-              alt='tostadas'
+              src='https://imgur.com/58CEeOw.png'
+              className='images-spread'
+              alt='chef at home'
             />
             <img
-              src='https://imgur.com/7MzW9c6.png'
-              className='image-spread'
-              alt='flautas'
+              src='https://imgur.com/nnorFVz.png'
+              className='images-spread'
+              alt='waiter'
             />
             <img
-              src='https://imgur.com/gFsv1GF.png'
-              className='image-spread'
-              alt='chef owner'
+              src='https://imgur.com/LTNOm3M.png'
+              className='images-spread'
+              alt='paris and food'
             />
             <img
-              src='https://imgur.com/NrZ884y.png'
-              className='image-spread'
-              alt='making tortillas'
+              src='https://imgur.com/CSkcLup.png'
+              className='images-spread'
+              alt='market'
             />
             <img
-              src='https://imgur.com/j4prFfU.png'
-              className='image-spread'
-              alt='city dusk scene'
+              src='https://imgur.com/iTXVcpf.png'
+              className='images-spread'
+              alt='girl at cafe'
             />
             <img
-              src='https://imgur.com/gmv8QqP.png'
-              className='image-spread'
-              alt='couple dancing'
+              src='https://imgur.com/UswFLRh.png'
+              className='images-spread'
+              alt='girl chefs'
+            />
+            <img
+              src='https://imgur.com/DrRCHsx.png'
+              className='images-spread'
+              alt='flowers spread'
+            />
+            <img
+              src='https://imgur.com/U0aEoTl.png'
+              className='images-spread'
+              alt='young chef'
+            />
+            <img
+              src='https://imgur.com/gyoRUev.png'
+              className='images-spread'
+              alt='radishes'
+            />
+            <img
+              src='https://imgur.com/jJaI89t.png'
+              className='images-spread'
+              alt='oysters'
             />
           </LazyLoad>
         </div>
@@ -84,4 +104,4 @@ class AboutMexicoMobile extends React.Component {
   }
 }
 
-export default AboutMexicoMobile
+export default AboutParisMobile
