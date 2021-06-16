@@ -14,6 +14,9 @@ import AboutParisMobile from './components/paris/AboutParisMobile'
 import AboutParis from './components/paris/AboutParis'
 import Newsletter from './components/newsletter/Newsletter'
 
+import WFTest from './components/wfTest/WFTest'
+import WFTestMobile from './components/wfTest/WFTestMobile'
+
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
 
 class App extends React.Component {
@@ -42,6 +45,8 @@ class App extends React.Component {
     if (width <= 760) isMobileMexico = true
     let isMobileParis
     if (width <= 760) isMobileParis = true
+    let isMobileWF
+    if (width <= 760) isMobileWF = true
 
     let isMobileJim
     if (width <= 539) isMobileJim = true
@@ -67,6 +72,12 @@ class App extends React.Component {
           <Route exact path='/world-food-paris' component={AboutParisMobile} />
         ) : (
           <Route exact path='/world-food-paris' component={AboutParis} />
+        )}
+
+        {isMobileWF ? (
+          <Route exact path='/world-food-test' component={WFTestMobile} />
+        ) : (
+          <Route exact path='/world-food-test' component={WFTest} />
         )}
         {isMobileJim ? (
           <Route exact path='/about-james' component={AboutJimMobileCopy} />

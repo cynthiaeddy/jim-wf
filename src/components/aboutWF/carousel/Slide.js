@@ -1,6 +1,6 @@
 import React from 'react'
-import imageData from '../carouselMexico/Images'
-import '../../stylesheets/AboutParis.css'
+import imageData from '../../carouselMexico/Images'
+import '../../../stylesheets/AboutMexico.css'
 
 class Slide extends React.Component {
   constructor(props) {

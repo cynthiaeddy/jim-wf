@@ -1,4 +1,4 @@
-/* .aboutMexicoContainer {
+.aboutWFContainer {
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
   grid-template-rows: 1fr;
@@ -7,12 +7,12 @@
   width: 72vw;
   max-width: 1080px;
   margin-top: 90px;
-  grid-template-areas: 'l-arrow aboutMexicoContainer-main r-arrow';
+  grid-template-areas: 'l-arrow aboutWFContainer-main r-arrow';
   max-width: 1400px;
   max-width: 1260px;
 }
-.aboutMexicoContainer-main {
-  grid-area: aboutMexicoContainer-main;
+.aboutWFContainer-main {
+  grid-area: aboutWFContainer-main;
 }
 .l-arrow {
   grid-area: l-arrow;
@@ -54,7 +54,7 @@ h2 span {
   border: none;
 }
 
-.aboutMexicoContainer-mobile {
+.aboutWFContainer-mobile {
   overflow-y: auto;
   width: 83vw;
   margin-top: 160px;
@@ -62,44 +62,44 @@ h2 span {
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-  .aboutMexicoContainer {
+  .aboutWFContainer {
     width: 80vw;
   }
 }
 
 @media (min-width: 761px) and (max-width: 899px) {
-  .aboutMexicoContainer {
+  .aboutWFContainer {
     width: 80vw;
     grid-gap: 10px;
   }
 }
 @media (min-width: 699px) and (max-width: 760px) {
-  .aboutMexicoContainer-mobile {
+  .aboutWFContainer-mobile {
     margin-top: 130px;
   }
 }
 @media (min-width: 540px) and (max-width: 900px) {
-  .aboutMexicoContainer-mobile {
+  .aboutWFContainer-mobile {
     width: 70vw;
   }
 }
 @media (min-width: 540px) and (max-width: 698px) {
-  .aboutMexicoContainer-mobile {
+  .aboutWFContainer-mobile {
     margin-top: 180px;
   }
-  .aboutMexicoContainer-mobile.slide-active {
+  .aboutWFContainer-mobile.slide-active {
     margin-top: 180px;
   }
 }
 @media (min-width: 539px) and (max-width: 760px) {
-  .aboutMexicoContainer-mobile {
+  .aboutWFContainer-mobile {
     width: 70vw;
   }
 }
 
 @media (max-width: 400px) {
-  .aboutMexicoContainer-mobile {
+  .aboutWFContainer-mobile {
     /* padding-bottom: 160px; */
-/* padding-bottom: 120px;
+    padding-bottom: 120px;
   }
-} */
+}
