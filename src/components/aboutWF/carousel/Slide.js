@@ -9,7 +9,7 @@ class Slide extends React.Component {
     }
   }
   render() {
-    console.log('in slide', this.props)
+    console.log('in slide', this.props.activeIndex)
     return (
       <section>
         {this.state.landing.map((s, index) => (

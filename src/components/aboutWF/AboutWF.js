@@ -12,8 +12,9 @@ class AboutWF extends React.Component {
     super(props)
     this.state = {
       activeIndex: 0,
-      length: this.props.imageData,
+      length: this.props.imageData.length,
       width: window.innerWidth,
+      imageData: this.props.imageData,
     }
   }
   goToPrevSlide() {
@@ -24,6 +25,7 @@ class AboutWF extends React.Component {
     } else {
       index--
     }
+
     this.setState({
       activeIndex: index,
     })
@@ -54,14 +56,7 @@ class AboutWF extends React.Component {
     this.setState({ width: window.innerWidth })
   }
   render() {
-    console.log(
-      'this.props.imageData',
-      this.props.imageData,
-      'this.state',
-      this.state,
-      'this.state.length',
-      this.state.length
-    )
+    console.log('this.state.activeIndex', this.state.activeIndex)
     let width = this.state.width
     let isBigMobile
     if (width <= 840) isBigMobile = true
@@ -75,7 +70,7 @@ class AboutWF extends React.Component {
           </div>
           <div className='aboutWFContainer-main'>
             <Slide
-              imageData={this.props.imageData}
+              imageData={this.state.imageData}
               activeIndex={this.state.activeIndex}
               goToNextSlide={() => this.goToNextSlide()}
             />
