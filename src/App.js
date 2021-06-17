@@ -14,9 +14,8 @@ import AboutParisMobile from './components/paris/AboutParisMobile'
 import AboutParis from './components/paris/AboutParis'
 import Newsletter from './components/newsletter/Newsletter'
 
-import WFTest from './components/wfTest/WFTest'
+import WFTest from './components/mexico/AboutMexico'
 import WFTestMobile from './components/wfTest/WFTestMobile'
-import WFTestParis from './components/wfTestParis/WFTestParis'
 
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
 
@@ -78,13 +77,9 @@ class App extends React.Component {
         {isMobileWF ? (
           <Route exact path='/world-food-test' component={WFTestMobile} />
         ) : (
-          <Route exact path='/world-food-test' component={WFTest} />
+          <Route exact path='/world-food-test' component={AboutMexico} />
         )}
-        {isMobileWF ? (
-          <Route exact path='/world-food-test-paris' component={WFTestMobile} />
-        ) : (
-          <Route exact path='/world-food-test-paris' component={WFTestParis} />
-        )}
+
         {isMobileJim ? (
           <Route exact path='/about-james' component={AboutJimMobileCopy} />
         ) : (

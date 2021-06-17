@@ -1,31 +1,49 @@
 import React from 'react'
-import '../../stylesheets/AboutParis.css'
+import '../../stylesheets/AboutWF.css'
 
 const Images = [
   {
     img: (
       <img
         src='https://imgur.com/Goh5CJu.png'
-        className='images-spread paris-opener'
+        className='images-spread opener'
         alt='paris cover'
       />
     ),
   },
-  {
-    img: (
-      <img
-        src='https://imgur.com/AG47vZv.jpg'
-        className='images-spread'
-        alt='park spread'
-      />
-    ),
-  },
+  // {
+  //   img: (
+  //     <img
+  //       src='https://imgur.com/AG47vZv.jpg'
+  //       className='images-spread'
+  //       alt='park spread'
+  //     />
+  //   ),
+  // },
   {
     img: (
       <img
         src='https://imgur.com/GeTVIXU.png'
         className='images-spread'
         alt='other park spread'
+      />
+    ),
+  },
+  {
+    img: (
+      <img
+        src='https://imgur.com/LTNOm3M.png'
+        className='images-spread'
+        alt='paris and food'
+      />
+    ),
+  },
+  {
+    img: (
+      <img
+        src='https://imgur.com/U0aEoTl.png'
+        className='images-spread'
+        alt='young chef'
       />
     ),
   },
@@ -44,15 +62,6 @@ const Images = [
         src='https://imgur.com/nnorFVz.png'
         className='images-spread'
         alt='waiter'
-      />
-    ),
-  },
-  {
-    img: (
-      <img
-        src='https://imgur.com/LTNOm3M.png'
-        className='images-spread'
-        alt='paris and food'
       />
     ),
   },
@@ -89,15 +98,6 @@ const Images = [
         src='https://imgur.com/DrRCHsx.png'
         className='images-spread'
         alt='flowers spread'
-      />
-    ),
-  },
-  {
-    img: (
-      <img
-        src='https://imgur.com/U0aEoTl.png'
-        className='images-spread'
-        alt='young chef'
       />
     ),
   },

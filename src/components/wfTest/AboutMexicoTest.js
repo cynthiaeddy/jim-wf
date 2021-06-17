@@ -2,8 +2,8 @@ import React from 'react'
 import imageData from './Images'
 import AboutWF from '../aboutWF/AboutWF'
 
-const WFTestParis = () => {
+const AboutMexico = () => {
   return <AboutWF imageData={imageData} />
 }
 
-export default WFTestParis
+export default AboutMexico
