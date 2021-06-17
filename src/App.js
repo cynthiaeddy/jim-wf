@@ -14,9 +14,6 @@ import AboutParisMobile from './components/paris/AboutParisMobile'
 import AboutParis from './components/paris/AboutParis'
 import Newsletter from './components/newsletter/Newsletter'
 
-import WFTest from './components/mexico/AboutMexico'
-import WFTestMobile from './components/wfTest/WFTestMobile'
-
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
 
 class App extends React.Component {
