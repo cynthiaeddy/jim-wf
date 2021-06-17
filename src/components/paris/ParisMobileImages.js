@@ -11,7 +11,7 @@ const ParisMobileImages = () => {
         alt='paris cover'
       />
       <img
-        src='https://imgur.com/GeTVIXU.jpg'
+        src='https://imgur.com/GeTVIXU.png'
         className='images-spread'
         alt='park spread'
       />
