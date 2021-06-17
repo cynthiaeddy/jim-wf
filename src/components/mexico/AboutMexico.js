@@ -1,5 +1,5 @@
 import React from 'react'
-import imageData from './Images'
+import imageData from './MexicoImages'
 import AboutWF from '../aboutWF/AboutWF'
 
 const AboutMexico = () => {

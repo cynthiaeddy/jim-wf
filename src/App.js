@@ -59,7 +59,7 @@ class App extends React.Component {
         ) : (
           <Route exact path='/' component={Home} />
         )}
-        {isMobileMexico ? (
+        {isMobileWF ? (
           <Route
             exact
             path='/world-food-mexico'
@@ -68,16 +68,10 @@ class App extends React.Component {
         ) : (
           <Route exact path='/world-food-mexico' component={AboutMexico} />
         )}
-        {isMobileParis ? (
+        {isMobileWF ? (
           <Route exact path='/world-food-paris' component={AboutParisMobile} />
         ) : (
           <Route exact path='/world-food-paris' component={AboutParis} />
-        )}
-
-        {isMobileWF ? (
-          <Route exact path='/world-food-test' component={WFTestMobile} />
-        ) : (
-          <Route exact path='/world-food-test' component={AboutMexico} />
         )}
 
         {isMobileJim ? (

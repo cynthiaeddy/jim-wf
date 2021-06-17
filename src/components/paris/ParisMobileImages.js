@@ -1,123 +1,77 @@
 import React from 'react'
+import LazyLoad from 'react-lazyload'
 import '../../stylesheets/AboutWF.css'
 
-const Images = [
-  {
-    img: (
+const ParisMobileImages = () => {
+  return (
+    <LazyLoad>
       <img
-        src='https://imgur.com/Goh5CJu.png'
-        className='images-spread opener'
+        src='https://imgur.com/dm1Yv2W.png'
+        className='images-spread paris-opener'
         alt='paris cover'
       />
-    ),
-  },
-  // {
-  //   img: (
-  //     <img
-  //       src='https://imgur.com/AG47vZv.jpg'
-  //       className='images-spread'
-  //       alt='park spread'
-  //     />
-  //   ),
-  // },
-  {
-    img: (
+      <img
+        src='https://imgur.com/AG47vZv.jpg'
+        className='images-spread'
+        alt='park spread'
+      />
       <img
         src='https://imgur.com/GeTVIXU.png'
         className='images-spread'
         alt='other park spread'
       />
-    ),
-  },
-  {
-    img: (
-      <img
-        src='https://imgur.com/LTNOm3M.png'
-        className='images-spread'
-        alt='paris and food'
-      />
-    ),
-  },
-  {
-    img: (
-      <img
-        src='https://imgur.com/U0aEoTl.png'
-        className='images-spread'
-        alt='young chef'
-      />
-    ),
-  },
-  {
-    img: (
       <img
         src='https://imgur.com/58CEeOw.png'
         className='images-spread'
         alt='chef at home'
       />
-    ),
-  },
-  {
-    img: (
       <img
         src='https://imgur.com/nnorFVz.png'
         className='images-spread'
         alt='waiter'
       />
-    ),
-  },
-  {
-    img: (
+      <img
+        src='https://imgur.com/LTNOm3M.png'
+        className='images-spread'
+        alt='paris and food'
+      />
       <img
         src='https://imgur.com/CSkcLup.png'
         className='images-spread'
         alt='market'
       />
-    ),
-  },
-  {
-    img: (
       <img
         src='https://imgur.com/iTXVcpf.png'
         className='images-spread'
         alt='girl at cafe'
       />
-    ),
-  },
-  {
-    img: (
       <img
         src='https://imgur.com/UswFLRh.png'
         className='images-spread'
         alt='girl chefs'
       />
-    ),
-  },
-  {
-    img: (
       <img
         src='https://imgur.com/DrRCHsx.png'
         className='images-spread'
         alt='flowers spread'
       />
-    ),
-  },
-  {
-    img: (
+      <img
+        src='https://imgur.com/U0aEoTl.png'
+        className='images-spread'
+        alt='young chef'
+      />
       <img
         src='https://imgur.com/gyoRUev.png'
         className='images-spread'
         alt='radishes'
       />
-    ),
-  },
-  {
-    img: (
       <img
         src='https://imgur.com/jJaI89t.png'
         className='images-spread'
         alt='oysters'
       />
-    ),
-  },
-]
-export default Images
+    </LazyLoad>
+  )
+}
+
+export default ParisMobileImages
