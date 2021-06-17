@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
 import '../../stylesheets/AboutJim.css'
 
-const AboutJimMobile = () => {
+function AboutJimMobile() {
   return (
     <div className='container'>
       <NavbarMobile />

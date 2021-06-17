@@ -2,7 +2,7 @@ import React from 'react'
 import imageData from './ParisImages'
 import AboutWF from '../aboutWF/AboutWF'
 
-const AboutParis = () => {
+function AboutParis() {
   return <AboutWF imageData={imageData} />
 }
 

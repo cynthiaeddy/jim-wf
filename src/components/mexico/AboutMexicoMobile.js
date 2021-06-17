@@ -2,7 +2,7 @@ import React from 'react'
 import AboutWFMobile from '../aboutWF/AboutWFMobile'
 import MexicoMobileImages from './MexicoMobileImages'
 
-const AboutMexicoMobile = () => {
+function AboutMexicoMobile() {
   return <AboutWFMobile mobileImages={<MexicoMobileImages />} />
 }
 

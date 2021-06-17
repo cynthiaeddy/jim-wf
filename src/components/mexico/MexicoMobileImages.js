@@ -3,7 +3,7 @@ import LazyLoad from 'react-lazyload'
 
 import '../../stylesheets/AboutWF.css'
 
-const MexicoMobileImages = () => {
+function MexicoMobileImages() {
   return (
     <LazyLoad>
       <img

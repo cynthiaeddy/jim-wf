@@ -2,7 +2,7 @@ import React from 'react'
 import LazyLoad from 'react-lazyload'
 import '../../stylesheets/AboutWF.css'
 
-const ParisMobileImages = () => {
+function ParisMobileImages() {
   return (
     <LazyLoad>
       <img

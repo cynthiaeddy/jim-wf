@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
 
-const NavbarMexico = () => {
+function NavbarMexico() {
   return (
     <nav id='navbarMexico'>
       <Link to='/navbar'>

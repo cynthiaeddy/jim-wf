@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
-// import '../../stylesheets/Universal.css'
 
-const NavbarMexicoMobileInt = () => {
+function NavbarMexicoMobileInt() {
   return (
     <nav id='navbarMexicoMobileInt'>
       <Link to='/navbar'>

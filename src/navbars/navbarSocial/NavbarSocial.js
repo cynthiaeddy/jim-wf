@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../stylesheets/Navbar.css'
 
-const NavbarSocial = () => {
+function NavbarSocial() {
   return (
     <nav id='navbarSocial'>
       <div className='social'>

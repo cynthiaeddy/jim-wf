@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../stylesheets/Navbar.css'
 
-const NavBarToggle = () => {
+function NavBarToggle() {
   return (
     <div id='navBarToggle'>
       <ul className='toggleNavBar'>

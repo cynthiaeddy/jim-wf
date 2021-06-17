@@ -3,7 +3,7 @@ import React from 'react'
 import NavbarJimMobile from '../../navbars/navbarJim/NavbarJimMobile'
 import '../../stylesheets/AboutJimMobile.css'
 
-const AboutJimMobileCopy = () => {
+function AboutJimMobileCopy() {
   return (
     <div className='container'>
       <NavbarJimMobile />

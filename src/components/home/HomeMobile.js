@@ -5,7 +5,7 @@ import NavbarHomeMobile from '../../navbars/navbarHome/NavbarHomeMobile'
 import LazyLoad from 'react-lazyload'
 import '../../stylesheets/HomeMobile.css'
 
-const HomeMobile = () => {
+function HomeMobile() {
   return (
     <div className='container'>
       <NavbarHomeMobile />
