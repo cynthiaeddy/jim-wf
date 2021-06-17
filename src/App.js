@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Route, Redirect } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import NavbarSocial from './navbars/navbarSocial/NavbarSocial'
@@ -73,7 +73,6 @@ class App extends React.Component {
         )}
 
         <Route exact path='/newsletter' component={Newsletter} />
-        {/* <Redirect to='/' /> */}
         <NavbarSocial />
       </div>
     )
