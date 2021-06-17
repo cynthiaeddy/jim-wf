@@ -11,39 +11,9 @@ const ParisMobileImages = () => {
         alt='paris cover'
       />
       <img
-        src='https://imgur.com/AG47vZv.jpg'
+        src='https://imgur.com/GeTVIXU.jpg'
         className='images-spread'
         alt='park spread'
-      />
-      <img
-        src='https://imgur.com/GeTVIXU.png'
-        className='images-spread'
-        alt='other park spread'
-      />
-      <img
-        src='https://imgur.com/58CEeOw.png'
-        className='images-spread'
-        alt='chef at home'
-      />
-      <img
-        src='https://imgur.com/nnorFVz.png'
-        className='images-spread'
-        alt='waiter'
-      />
-      <img
-        src='https://imgur.com/LTNOm3M.png'
-        className='images-spread'
-        alt='paris and food'
-      />
-      <img
-        src='https://imgur.com/CSkcLup.png'
-        className='images-spread'
-        alt='market'
-      />
-      <img
-        src='https://imgur.com/iTXVcpf.png'
-        className='images-spread'
-        alt='girl at cafe'
       />
       <img
         src='https://imgur.com/UswFLRh.png'
@@ -51,9 +21,9 @@ const ParisMobileImages = () => {
         alt='girl chefs'
       />
       <img
-        src='https://imgur.com/DrRCHsx.png'
+        src='https://imgur.com/4tSP4Om.png'
         className='images-spread'
-        alt='flowers spread'
+        alt='oysters'
       />
       <img
         src='https://imgur.com/U0aEoTl.png'
@@ -61,14 +31,25 @@ const ParisMobileImages = () => {
         alt='young chef'
       />
       <img
-        src='https://imgur.com/gyoRUev.png'
+        src='https://imgur.com/RWThjCg.png'
         className='images-spread'
-        alt='radishes'
+        alt='picnic'
       />
       <img
-        src='https://imgur.com/jJaI89t.png'
+        src='https://imgur.com/LTNOm3M.png'
         className='images-spread'
-        alt='oysters'
+        alt='paris and food'
+      />
+      <img
+        src='https://imgur.com/58CEeOw.png'
+        className='images-spread'
+        alt='chef at home'
+      />
+
+      <img
+        src='https://imgur.com/DrRCHsx.png'
+        className='images-spread'
+        alt='flowers spread'
       />
     </LazyLoad>
   )
