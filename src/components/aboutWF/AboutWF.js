@@ -1,12 +1,10 @@
 import React from 'react'
 import NavbarMexico from '../../navbars/navbarMexico/NavbarMexico'
 import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
-// import imageData from '../aboutWF/carousel/Images'
 import ForwardArrow from '../aboutWF/carousel/ForwardArrow'
 import BackArrow from '../aboutWF/carousel/BackArrow'
 import Slide from '../aboutWF/carousel/Slide'
 
-import '../../stylesheets/AboutMexico.css'
 import '../../stylesheets/AboutWF.css'
 
 class AboutWF extends React.Component {
@@ -14,7 +12,7 @@ class AboutWF extends React.Component {
     super(props)
     this.state = {
       activeIndex: 0,
-      length: this.props.imageData.length,
+      length: this.props.imageData,
       width: window.innerWidth,
     }
   }
@@ -56,7 +54,14 @@ class AboutWF extends React.Component {
     this.setState({ width: window.innerWidth })
   }
   render() {
-    console.log(this.props)
+    console.log(
+      'this.props.imageData',
+      this.props.imageData,
+      'this.state',
+      this.state,
+      'this.state.length',
+      this.state.length
+    )
     let width = this.state.width
     let isBigMobile
     if (width <= 840) isBigMobile = true
@@ -70,6 +75,7 @@ class AboutWF extends React.Component {
           </div>
           <div className='aboutWFContainer-main'>
             <Slide
+              imageData={this.props.imageData}
               activeIndex={this.state.activeIndex}
               goToNextSlide={() => this.goToNextSlide()}
             />

@@ -8,6 +8,7 @@ class Slide extends React.Component {
     this.state = { landing: imageData }
   }
   render() {
+    console.log('in slide', this.props)
     return (
       <section>
         {this.state.landing.map((s, index) => (

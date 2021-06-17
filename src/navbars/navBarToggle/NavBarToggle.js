@@ -36,6 +36,13 @@ const NavBarToggle = () => {
         </li>
         <li>
           <h4>
+            <Link to='/world-food-test-paris' className='world-food'>
+              World Food test paris
+            </Link>
+          </h4>
+        </li>
+        <li>
+          <h4>
             <Link to='/about-james' className='about-james'>
               About James Oseland
             </Link>

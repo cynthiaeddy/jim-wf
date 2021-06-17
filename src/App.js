@@ -16,6 +16,7 @@ import Newsletter from './components/newsletter/Newsletter'
 
 import WFTest from './components/wfTest/WFTest'
 import WFTestMobile from './components/wfTest/WFTestMobile'
+import WFTestParis from './components/wfTestParis/WFTestParis'
 
 import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
 
@@ -78,6 +79,11 @@ class App extends React.Component {
           <Route exact path='/world-food-test' component={WFTestMobile} />
         ) : (
           <Route exact path='/world-food-test' component={WFTest} />
+        )}
+        {isMobileWF ? (
+          <Route exact path='/world-food-test-paris' component={WFTestMobile} />
+        ) : (
+          <Route exact path='/world-food-test-paris' component={WFTestParis} />
         )}
         {isMobileJim ? (
           <Route exact path='/about-james' component={AboutJimMobileCopy} />

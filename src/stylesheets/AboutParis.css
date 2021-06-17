@@ -1,4 +1,4 @@
-.aboutParisContainer {
+/* .aboutParisContainer {
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
   grid-template-rows: 1fr;
@@ -100,6 +100,4 @@ h2 span {
 @media (max-width: 400px) {
   .aboutParisContainer-mobile {
     /* padding-bottom: 160px; */
-    padding-bottom: 120px;
-  }
-}
+/* padding-bottom: 120px; */
