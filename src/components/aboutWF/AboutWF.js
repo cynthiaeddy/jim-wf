@@ -12,8 +12,8 @@ class AboutWF extends React.Component {
     super(props)
     this.state = {
       activeIndex: 0,
-      length: this.props.imageData.length,
       width: window.innerWidth,
+      length: this.props.imageData.length,
       imageData: this.props.imageData,
     }
   }
@@ -56,7 +56,6 @@ class AboutWF extends React.Component {
     this.setState({ width: window.innerWidth })
   }
   render() {
-    console.log('this.state.activeIndex', this.state.activeIndex)
     let width = this.state.width
     let isBigMobile
     if (width <= 840) isBigMobile = true

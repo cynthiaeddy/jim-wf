@@ -4,7 +4,6 @@ import { Route, Redirect } from 'react-router-dom'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import NavbarSocial from './navbars/navbarSocial/NavbarSocial'
-import AboutJimMobile from './components/aboutJim/AboutJimMobile'
 import AboutJim from './components/aboutJim/AboutJim'
 import HomeMobile from './components/home/HomeMobile'
 import Home from './components/home/Home'
@@ -38,10 +37,6 @@ class App extends React.Component {
     let isMobile
     if (width <= 900) isMobile = true
 
-    let isMobileMexico
-    if (width <= 760) isMobileMexico = true
-    let isMobileParis
-    if (width <= 760) isMobileParis = true
     let isMobileWF
     if (width <= 760) isMobileWF = true
 
