@@ -95,6 +95,8 @@
   }
   .homeContainerMobile {
     padding-bottom: 200px;
+    -moz-padding-bottom: 200px;
+    -webkit-padding-bottom: 200px;
   }
 
   .homeContainerMobile h5 {
