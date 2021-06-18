@@ -208,7 +208,7 @@ ul.toggleNavBar {
   #navbarSocial {
     width: 100vw;
     /* height: 80px;     */
-    height: 9vh;
+    height: 90vh;
     bottom: 0;
     top: unset;
     z-index: 25;
@@ -219,7 +219,8 @@ ul.toggleNavBar {
     flex-direction: row;
   }
   #navbarMobile.navbarHomeMobileHybrid {
-    height: 150px;
+    height: 16vh;
+    /* height: 150px; */
   }
   .navbarWorldFood h1 {
     font-weight: 400;
@@ -230,7 +231,8 @@ ul.toggleNavBar {
     width: 83vw;
   }
   #navbarMobile.navbarMexico {
-    height: 150px;
+    height: 16vh;
+    /* height: 150px; */
   }
 }
 @media (max-width: 400px) {
@@ -239,6 +241,7 @@ ul.toggleNavBar {
     line-height: 0.7;
   }
   #navbarMobile.navbarHomeMobileHybrid {
-    height: 140px;
+    height: 15vh;
+    /* height: 140px; */
   }
 }
