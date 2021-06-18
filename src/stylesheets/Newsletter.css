@@ -119,9 +119,16 @@ input:hover {
   #newsletterContainer {
     width: 55vw;
     margin-right: 10vw;
+    margin-top: 100px;
   }
   #newsletterContainer p {
     margin-right: 0px;
+  }
+}
+@media (max-width: 800px) {
+  #newsletterContainer {
+    overflow-y: auto;
+    margin-top: 130px;
   }
 }
 
@@ -149,9 +156,6 @@ input:hover {
   }
   #newsletterContainer {
     width: 100vw;
-    margin-top: 130px;
-    overflow-x: hidden;
-    overflow-y: auto;
     padding-bottom: 180px;
   }
   #newsletterContainer p {
