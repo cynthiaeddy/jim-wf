@@ -222,7 +222,7 @@ ul.toggleNavBar {
   }
   .navbarWorldFood h1 {
     font-weight: 400;
-    font-size: 5.3rem;
+    font-size: 5rem;
     line-height: 0.7;
   }
   #navbarMobile {
@@ -234,7 +234,7 @@ ul.toggleNavBar {
 }
 @media (max-width: 400px) {
   .navbarWorldFood h1 {
-    font-size: 4.2rem;
+    font-size: 4rem;
     line-height: 0.7;
   }
   #navbarMobile.navbarHomeMobileHybrid {
