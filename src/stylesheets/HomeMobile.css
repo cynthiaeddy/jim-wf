@@ -97,6 +97,7 @@
   .homeContainerMobile {
     /* padding-bottom: 200px; */
     margin-bottom: 9vh;
+    margin-top: 16vh;
   }
 
   .homeContainerMobile h5 {
@@ -114,6 +115,8 @@
     line-height: 0.7;
   }
   .homeContainerMobile {
+    margin-top: 21vh;
+
     /* padding-bottom: 180px; */
   }
   .homeContainerMobile-h5 {

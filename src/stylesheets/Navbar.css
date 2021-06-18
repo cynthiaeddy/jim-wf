@@ -220,7 +220,7 @@ ul.toggleNavBar {
     flex-direction: row;
   }
   #navbarMobile.navbarHomeMobileHybrid {
-    height: 16vh;
+    height: 17vh;
     /* height: 150px */
   }
   .navbarWorldFood h1 {
@@ -241,7 +241,7 @@ ul.toggleNavBar {
     line-height: 0.7;
   }
   #navbarMobile.navbarHomeMobileHybrid {
-    height: 20vh;
+    height: 21vh;
     /* height: 140px; */
   }
 }
