@@ -43,6 +43,10 @@ class AboutJim extends React.Component {
                 cooks. He is the author and editor of{' '}
                 <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1'>
                   <i>World Food: Mexico City</i>
+                </a>{' '}
+                and{' '}
+                <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=books&sr=1-2'>
+                  <i>World Food: Paris</i>
                 </a>
                 , part of World Food, a new book series from Ten Speed Press;
                 the next book in the series will be about Paris. He was the

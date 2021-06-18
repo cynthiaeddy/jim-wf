@@ -1,6 +1,4 @@
 import React from 'react'
-import NavbarMexico from '../../navbars/navbarMexico/NavbarMexico'
-import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
 import ForwardArrow from '../aboutWF/carousel/ForwardArrow'
 import BackArrow from '../aboutWF/carousel/BackArrow'
 import Slide from '../aboutWF/carousel/Slide'

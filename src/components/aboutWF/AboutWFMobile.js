@@ -1,6 +1,4 @@
 import React from 'react'
-import NavbarMexicoMobile from '../../navbars/navbarMexico/NavbarMexicoMobile'
-import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
 import '../../stylesheets/AboutWF.css'
 
 class AboutWFMobile extends React.Component {
