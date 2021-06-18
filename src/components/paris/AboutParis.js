@@ -1,13 +1,13 @@
 import React from 'react'
 import NavbarMexico from '../../navbars/navbarMexico/NavbarMexico'
 import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
-import imageData from './carouselMexico/ImagesMexico'
-import ForwardArrowMexico from './carouselMexico/ForwardArrowMexico'
-import BackArrowMexico from './carouselMexico/BackArrowMexico'
-import SlideMexico from './carouselMexico/SlideMexico'
+import imageData from './carouselParis/ImagesParis'
+import ForwardArrowParis from './carouselParis/ForwardArrowParis'
+import BackArrowParis from './carouselParis/BackArrowParis'
+import SlideParis from './carouselParis/SlideParis'
 import '../../stylesheets/AboutMexico.css'
 
-class AboutMexico extends React.Component {
+class AboutParis extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -63,17 +63,17 @@ class AboutMexico extends React.Component {
 
         <div className='aboutMexicoContainer'>
           <div className='l-arrow '>
-            <BackArrowMexico goToPrevSlide={() => this.goToPrevSlide()} />
+            <BackArrowParis goToPrevSlide={() => this.goToPrevSlide()} />
           </div>
           <div className='aboutMexicoContainer-main'>
-            <SlideMexico
+            <SlideParis
               activeIndex={this.state.activeIndex}
               goToNextSlide={() => this.goToNextSlide()}
             />
           </div>
 
           <div className='r-arrow'>
-            <ForwardArrowMexico goToNextSlide={() => this.goToNextSlide()} />
+            <ForwardArrowParis goToNextSlide={() => this.goToNextSlide()} />
           </div>
         </div>
       </div>
@@ -81,4 +81,4 @@ class AboutMexico extends React.Component {
   }
 }
 
-export default AboutMexico
+export default AboutParis

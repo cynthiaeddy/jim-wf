@@ -1,8 +1,8 @@
 import React from 'react'
-import imageData from '../carouselMexico/Images'
-import '../../stylesheets/AboutMexico.css'
+import imageData from './ImagesParis'
+import '../../../stylesheets/AboutMexico.css'
 
-class Slide extends React.Component {
+class SlideParis extends React.Component {
   constructor(props) {
     super(props)
     this.state = { landing: imageData }
@@ -25,4 +25,4 @@ class Slide extends React.Component {
     )
   }
 }
-export default Slide
+export default SlideParis

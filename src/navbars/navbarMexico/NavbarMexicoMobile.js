@@ -11,7 +11,7 @@ const NavbarMexicoMobile = () => {
       <div className='navbarTitle'>
         <h6>
           James Oseland’s <br />
-          <span class='navbarWorldFood'>WORLD FOOD</span>
+          <span className='navbarWorldFood'>WORLD FOOD</span>
         </h6>
         <div className='navbarBuy'>
           <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850'>

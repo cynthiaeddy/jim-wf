@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-class ForwardArrow extends Component {
+class ForwardArrowParis extends Component {
   render() {
     return (
-      <div className="arrow" onClick={this.props.goToNextSlide}>
-        <div className="arrowSpace">
+      <div className='arrow' onClick={this.props.goToNextSlide}>
+        <div className='arrowSpace'>
           <h2>
             forward <span>&gt;&gt;</span>
           </h2>
@@ -14,4 +14,4 @@ class ForwardArrow extends Component {
   }
 }
 
-export default ForwardArrow
+export default ForwardArrowParis
