@@ -2,7 +2,7 @@
   width: 83vw;
   margin-top: 140px;
   overflow-y: auto;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
 }
 
 .homeContainerMobile-main {
@@ -94,7 +94,7 @@
       'carousel-mobile  carousel-mobile  carousel-mobile' 'ipadtr ipadmr ipadbr';
   }
   .homeContainerMobile {
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
   }
 
   .homeContainerMobile h5 {
