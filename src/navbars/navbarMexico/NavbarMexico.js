@@ -14,7 +14,7 @@ const NavbarMexico = () => {
         </a>
       </div>
       <h6>
-        James Oseland’s <span class='nav-world'>WORLD FOOD</span>
+        James Oseland’s <span className='nav-world'>WORLD FOOD</span>
       </h6>
     </nav>
   )
