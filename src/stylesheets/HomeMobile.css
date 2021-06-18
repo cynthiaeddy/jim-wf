@@ -2,7 +2,8 @@
   width: 83vw;
   margin-top: 140px;
   overflow-y: auto;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
+  padding-bottom: 10vh;
 }
 
 .homeContainerMobile-main {
@@ -95,8 +96,6 @@
   }
   .homeContainerMobile {
     padding-bottom: 200px;
-    -moz-padding-bottom: 200px;
-    -webkit-padding-bottom: 200px;
   }
 
   .homeContainerMobile h5 {
