@@ -61,7 +61,7 @@ class AboutWF extends React.Component {
     if (width <= 840) isBigMobile = true
     return (
       <div className='container'>
-        {isBigMobile ? <NavbarMexicoMobileInt /> : <NavbarMexico />}
+        {isBigMobile ? this.props.navbarMobileInt : this.props.navbar}
 
         <div className='aboutWFContainer'>
           <div className='l-arrow '>

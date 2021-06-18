@@ -27,7 +27,7 @@ class AboutWFMobile extends React.Component {
     if (width >= 699) isBigMobile = true
     return (
       <div className='container'>
-        {isBigMobile ? <NavbarMexicoMobileInt /> : <NavbarMexicoMobile />}
+        {isBigMobile ? this.props.navbarMobileInt : this.props.navbarMobile}
         <div className='aboutWFContainer-mobile'>{this.props.mobileImages}</div>
       </div>
     )
