@@ -1,11 +1,12 @@
 import React from 'react'
-import imageData from '../carouselMexico/Images'
-import '../../stylesheets/AboutMexico.css'
+import '../../../stylesheets/AboutWF.css'
 
 class Slide extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { landing: imageData }
+    this.state = {
+      landing: this.props.imageData,
+    }
   }
   render() {
     return (

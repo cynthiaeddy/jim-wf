@@ -1,13 +1,14 @@
 import React from 'react'
-import '../../stylesheets/AboutMexico.css'
+import '../../stylesheets/AboutWF.css'
 
 const Images = [
   {
     img: (
       <img
         src='https://imgur.com/x9LiUrY.png'
-        className='images-spread mexico-opener'
-        alt='mexico cover'></img>
+        className='images-spread opener'
+        alt='mexico cover'
+      />
     ),
   },
   {
@@ -15,7 +16,8 @@ const Images = [
       <img
         src='https://imgur.com/ZgGRhRt.png'
         className='images-spread'
-        alt='cacti spread'></img>
+        alt='cacti spread'
+      />
     ),
   },
   {
@@ -23,7 +25,8 @@ const Images = [
       <img
         src='https://imgur.com/jPjrPeU.png'
         className='images-spread'
-        alt='family gathering'></img>
+        alt='family gathering'
+      />
     ),
   },
   {
@@ -31,7 +34,8 @@ const Images = [
       <img
         src='https://imgur.com/51tn7cd.png'
         className='images-spread'
-        alt='tostadas'></img>
+        alt='tostadas'
+      />
     ),
   },
   {
@@ -39,7 +43,8 @@ const Images = [
       <img
         src='https://imgur.com/7MzW9c6.png'
         className='images-spread'
-        alt='flautas'></img>
+        alt='flautas'
+      />
     ),
   },
   {
@@ -47,7 +52,8 @@ const Images = [
       <img
         src='https://imgur.com/gFsv1GF.png'
         className='images-spread'
-        alt='chef owner'></img>
+        alt='chef owner'
+      />
     ),
   },
   {
@@ -55,7 +61,8 @@ const Images = [
       <img
         src='https://imgur.com/NrZ884y.png'
         className='images-spread'
-        alt='making tortillas'></img>
+        alt='making tortillas'
+      />
     ),
   },
   {
@@ -63,7 +70,8 @@ const Images = [
       <img
         src='https://imgur.com/j4prFfU.png'
         className='images-spread'
-        alt='city dusk scene'></img>
+        alt='city dusk scene'
+      />
     ),
   },
   {
@@ -71,7 +79,8 @@ const Images = [
       <img
         src='https://imgur.com/gmv8QqP.png'
         className='images-spread'
-        alt='couple dancing'></img>
+        alt='couple dancing'
+      />
     ),
   },
 ]
