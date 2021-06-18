@@ -1,11 +1,10 @@
 import React from 'react'
-import LazyLoad from 'react-lazyload'
 
 import '../../stylesheets/AboutWF.css'
 
 const MexicoMobileImages = () => {
   return (
-    <LazyLoad>
+    <>
       <img
         src='https://imgur.com/m0fagzo.png'
         className='image-spread '
@@ -51,7 +50,7 @@ const MexicoMobileImages = () => {
         className='image-spread'
         alt='couple dancing'
       />
-    </LazyLoad>
+    </>
   )
 }
 

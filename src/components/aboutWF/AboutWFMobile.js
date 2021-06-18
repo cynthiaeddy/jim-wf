@@ -2,6 +2,7 @@ import React from 'react'
 import NavbarMexicoMobile from '../../navbars/navbarMexico/NavbarMexicoMobile'
 import NavbarMexicoMobileInt from '../../navbars/navbarMexico/NavbarMexicoMobileInt'
 import '../../stylesheets/AboutWF.css'
+import LazyLoad from 'react-lazyload'
 
 class AboutWFMobile extends React.Component {
   constructor(props) {
@@ -28,7 +29,9 @@ class AboutWFMobile extends React.Component {
     return (
       <div className='container'>
         {isBigMobile ? <NavbarMexicoMobileInt /> : <NavbarMexicoMobile />}
-        <div className='aboutWFContainer-mobile'>{this.props.mobileImages}</div>
+        <div className='aboutWFContainer-mobile'>
+          <LazyLoad>{this.props.mobileImages}</LazyLoad>
+        </div>
       </div>
     )
   }
