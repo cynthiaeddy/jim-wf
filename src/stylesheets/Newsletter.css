@@ -127,14 +127,15 @@ input:hover {
 }
 @media (max-width: 800px) {
   #newsletterContainer {
-    overflow-y: auto;
+    /* overflow-y: auto;
+    overflow-x: hidden; */
     margin-top: 130px;
   }
 }
 
 @media (min-width: 540px) and (max-width: 699px) {
   #newsletterContainer {
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     justify-content: flex-start;
     margin-right: 15vw;
     width: 90vw;
