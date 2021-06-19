@@ -157,6 +157,8 @@ input:hover {
   #newsletterContainer {
     width: 100vw;
     padding-bottom: 180px;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   #newsletterContainer p {
     margin-left: 10%;
