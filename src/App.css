@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100vw;
   height: 100vh;
   position: fixed;
