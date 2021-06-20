@@ -1,11 +1,11 @@
 import React from 'react'
 import '../../stylesheets/AboutWF.css'
 
-const Images = [
+const ParisImages = [
   {
     img: (
       <img
-        src='https://imgur.com/Goh5CJu.png'
+        src='https://imgur.com/20kTj9s.jpg'
         className='images-spread opener'
         alt='paris cover'
       />
@@ -15,7 +15,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/GeTVIXU.png'
+        src='https://imgur.com/fgSiDbX.jpg'
         className='images-spread'
         alt='park spread'
       />
@@ -24,7 +24,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/UswFLRh.png'
+        src='https://imgur.com/jj6KmpT.jpg'
         className='images-spread'
         alt='girl chefs'
       />
@@ -33,7 +33,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/4tSP4Om.png'
+        src='https://imgur.com/H6fve1j.jpg'
         className='images-spread'
         alt='oysters'
       />
@@ -42,7 +42,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/U0aEoTl.png'
+        src='https://imgur.com/amuppfm.jpg'
         className='images-spread'
         alt='young chef'
       />
@@ -52,7 +52,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/RWThjCg.png'
+        src='https://imgur.com/DQBsB0H.jpg'
         className='images-spread'
         alt='picnic'
       />
@@ -61,7 +61,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/LTNOm3M.png'
+        src='https://imgur.com/jQjDvvb.jpg'
         className='images-spread'
         alt='paris and food'
       />
@@ -71,7 +71,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/58CEeOw.png'
+        src='https://imgur.com/6BAt0iw.jpg'
         className='images-spread'
         alt='chef at home'
       />
@@ -81,11 +81,11 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/DrRCHsx.png'
+        src='https://imgur.com/L1WJaM2.jpg'
         className='images-spread'
         alt='flowers spread'
       />
     ),
   },
 ]
-export default Images
+export default ParisImages

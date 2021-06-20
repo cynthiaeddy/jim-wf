@@ -30,7 +30,7 @@ class AboutJim extends React.Component {
         <div className='aboutJimContainer'>
           <div className=' aboutJimContainer-left '>
             <img
-              src='https://imgur.com/ZEKpb1L.png'
+              src='https://imgur.com/yWGjL4m.jpg'
               className='aboutJim img'
               alt='Jim'></img>
           </div>
@@ -86,7 +86,7 @@ class AboutJim extends React.Component {
               <div className='book'>
                 <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579850/ref=sr_1_1?crid=3PCZYLGIN4PLK&dchild=1&keywords=world+food+mexico+city&qid=1607723856&sprefix=world+food+me%2Caps%2C252&sr=8-1'>
                   <img
-                    src='https://imgur.com/1j4Jyl8.png'
+                    src='https://imgur.com/z3bRXZU.jpg'
                     alt='mexico city book cover'></img>
                   <div className='middle book-tl'>
                     <div className='text'>buy</div>
@@ -97,7 +97,7 @@ class AboutJim extends React.Component {
               <div className='book'>
                 <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=books&sr=1-2'>
                   <img
-                    src='https://imgur.com/2p9wv6x.png'
+                    src='https://imgur.com/Oz9Ww5m.jpg'
                     alt='paris book cover'></img>
                   <div className='middle'>
                     <div className='text'>buy</div>
@@ -108,7 +108,7 @@ class AboutJim extends React.Component {
               <div className='book'>
                 <a href='https://www.amazon.com/Saveur-Comfort-Cooking-Oseland-2011-04-20/dp/B011KD0JUG/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr='>
                   <img
-                    src='https://imgur.com/FUG0RxS.png'
+                    src='https://imgur.com/scpdluX.jpg'
                     alt='saveur-comfort book cover'></img>
                   <div className='middle'>
                     <div className='text'>buy</div>
@@ -119,7 +119,7 @@ class AboutJim extends React.Component {
               <div className='book'>
                 <a href='https://www.amazon.com/gp/product/0393054772/ref=dbs_a_def_rwt_bibl_vppi_i4'>
                   <img
-                    src='https://imgur.com/iSiJOeq.png'
+                    src='https://imgur.com/sjwrFRn.jpg'
                     alt='cradle of flavor book cover'></img>
                   <div className='middle'>
                     <div className='text'>buy</div>
@@ -129,7 +129,7 @@ class AboutJim extends React.Component {
               <div className='book'>
                 <a href='https://www.amazon.com/gp/product/1743218443/ref=dbs_a_def_rwt_bibl_vppi_i5'>
                   <img
-                    src='https://imgur.com/GNCsuFS.png'
+                    src='https://imgur.com/myetRF1.jpg'
                     alt='fork in road book cover'></img>
                   <div className='middle'>
                     <div className='text'>buy</div>
@@ -140,7 +140,7 @@ class AboutJim extends React.Component {
               <div className='book'>
                 <a href='https://www.amazon.com/Jimmy-Neurosis-Memoir-James-Oseland/dp/0062267361/ref=sxts_sxwds-bia-wc-p13n1_0?crid=2PUBFRZHQT9TE&cv_ct_cx=jimmy+neurosis&dchild=1&keywords=jimmy+neurosis&pd_rd_i=0062267361&pd_rd_r=e19fa31a-4d7f-4f8b-8dbf-425c9615a652&pd_rd_w=muLPe&pd_rd_wg=ccBuf&pf_rd_p=1835a2a9-7ed8-48dc-ad07-fcd7527bd2bc&pf_rd_r=651P663Q3K24S1H5DVSH&psc=1&qid=1607723919&sprefix=jimmy+neur%2Caps%2C247&sr=1-1-80ba0e26-a1cd-4e7b-87a0-a2ffae3a273c'>
                   <img
-                    src='https://imgur.com/HmIXksG.png'
+                    src='https://imgur.com/sbsAxbH.jpg'
                     alt='jimmy neurosis book cover'></img>
                   <div className='middle'>
                     <div className='text'>buy</div>

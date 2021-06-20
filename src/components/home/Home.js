@@ -17,23 +17,23 @@ const Home = () => (
 
       <section className='homeContainer-main'>
         <div className='ltla'>
-          <img src='https://imgur.com/pFJCQVg.png' alt='gal with food'></img>
+          <img src='https://imgur.com/3AFnSfd.jpg' alt='gal with food'></img>
         </div>
         <div className='ltra'>
-          <img src='https://imgur.com/3JbHdNa.png' alt='flan on plate'></img>
+          <img src='https://imgur.com/Jh9ZcB6.jpg' alt='flan on plate'></img>
         </div>
         <div className='lmla'>
-          <img src='https://imgur.com/9YAUbs6.png' alt='corn'></img>
+          <img src='https://imgur.com/m4tAvPX.jpg' alt='corn'></img>
         </div>
         <div className='lmra'>
-          <img src='https://imgur.com/rGsUh8n.png' alt='woman gazing'></img>
+          <img src='https://imgur.com/VEOtKmw.jpg' alt='woman gazing'></img>
         </div>
         <div className=' lbla'>
-          <img src='https://imgur.com/pokfhSn.png' alt='older man in hat'></img>
+          <img src='https://imgur.com/CG7o7fq.jpg' alt='older man in hat'></img>
         </div>
         <div className='lbra'>
           <img
-            src='https://imgur.com/SDyISxG.png'
+            src='https://imgur.com/11sGlQP.jpg'
             alt='single piece of flan'></img>
         </div>
 
@@ -50,26 +50,26 @@ const Home = () => (
             stopOnHover={true}>
             <div>
               <img
-                src='https://imgur.com/vC8skgZ.png'
+                src='https://imgur.com/SAHVLhY.jpg'
                 alt='mexico book cover'></img>
             </div>
             <div>
               <img
-                src='https://imgur.com/2BytCct.png'
+                src='https://imgur.com/fEBlwqS.jpg'
                 alt='paris book cover'></img>
             </div>
           </Carousel>
         </div>
 
         <div className=' rtla'>
-          <img src='https://imgur.com/5W2uCN4.png' alt='waiter'></img>
+          <img src='https://imgur.com/DVSJrF2.jpg' alt='waiter'></img>
         </div>
         <div className=' rnla'>
-          <img src='https://imgur.com/zGPJQ7t.png' alt='plate of food'></img>
+          <img src='https://imgur.com/eG4b0bp.jpg' alt='plate of food'></img>
         </div>
         <div className=' rbla'>
           <img
-            src='https://imgur.com/kfZNdjw.png'
+            src='https://imgur.com/QGPjTRp.jpg'
             alt='woman with bowl of food'></img>
         </div>
 

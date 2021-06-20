@@ -7,47 +7,47 @@ const MexicoMobileImages = () => {
   return (
     <LazyLoad>
       <img
-        src='https://imgur.com/m0fagzo.png'
+        src='https://imgur.com/X787Fpx.jpg'
         className='image-spread '
         alt='mexico cover'
       />
       <img
-        src='https://imgur.com/ZgGRhRt.png'
+        src='https://imgur.com/lac093V.jpg'
         className='image-spread'
         alt='cacti spread'
       />
       <img
-        src='https://imgur.com/jPjrPeU.png'
+        src='https://imgur.com/WbIC89K.jpg'
         className='image-spread'
         alt='family gathering'
       />
       <img
-        src='https://imgur.com/51tn7cd.png'
+        src='https://imgur.com/yal60X5.jpg'
         className='image-spread'
         alt='tostadas'
       />
       <img
-        src='https://imgur.com/7MzW9c6.png'
+        src='https://imgur.com/hFSWkoU.jpg'
         className='image-spread'
         alt='flautas'
       />
       <img
-        src='https://imgur.com/gFsv1GF.png'
+        src='https://imgur.com/RmqWb1r.jpg'
         className='image-spread'
         alt='chef owner'
       />
       <img
-        src='https://imgur.com/NrZ884y.png'
+        src='https://imgur.com/aHzFIS6.jpg'
         className='image-spread'
         alt='making tortillas'
       />
       <img
-        src='https://imgur.com/j4prFfU.png'
+        src='https://imgur.com/qxpz9vC.jpg'
         className='image-spread'
         alt='city dusk scene'
       />
       <img
-        src='https://imgur.com/gmv8QqP.png'
+        src='https://imgur.com/gmv8QqP.jpg'
         className='image-spread'
         alt='couple dancing'
       />

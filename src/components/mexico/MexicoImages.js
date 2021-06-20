@@ -1,11 +1,11 @@
 import React from 'react'
 import '../../stylesheets/AboutWF.css'
 
-const Images = [
+const MexicoImages = [
   {
     img: (
       <img
-        src='https://imgur.com/x9LiUrY.png'
+        src='https://imgur.com/cMHmBe3.jpg'
         className='images-spread opener'
         alt='mexico cover'
       />
@@ -14,7 +14,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/ZgGRhRt.png'
+        src='https://imgur.com/lac093V.jpg'
         className='images-spread'
         alt='cacti spread'
       />
@@ -23,7 +23,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/jPjrPeU.png'
+        src='https://imgur.com/WbIC89K.jpg'
         className='images-spread'
         alt='family gathering'
       />
@@ -32,7 +32,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/51tn7cd.png'
+        src='https://imgur.com/yal60X5.jpg'
         className='images-spread'
         alt='tostadas'
       />
@@ -41,7 +41,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/7MzW9c6.png'
+        src='https://imgur.com/hFSWkoU.jpg'
         className='images-spread'
         alt='flautas'
       />
@@ -50,7 +50,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/gFsv1GF.png'
+        src='https://imgur.com/RmqWb1r.jpg'
         className='images-spread'
         alt='chef owner'
       />
@@ -59,7 +59,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/NrZ884y.png'
+        src='https://imgur.com/aHzFIS6.jpg'
         className='images-spread'
         alt='making tortillas'
       />
@@ -68,7 +68,7 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/j4prFfU.png'
+        src='https://imgur.com/qxpz9vC.jpg'
         className='images-spread'
         alt='city dusk scene'
       />
@@ -77,11 +77,11 @@ const Images = [
   {
     img: (
       <img
-        src='https://imgur.com/gmv8QqP.png'
+        src='https://imgur.com/gmv8QqP.jpg'
         className='images-spread'
         alt='couple dancing'
       />
     ),
   },
 ]
-export default Images
+export default MexicoImages

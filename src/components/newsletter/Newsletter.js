@@ -62,13 +62,13 @@ class Newsletter extends React.Component {
           </div>
           <div className='video'>
             <a href='https://www.youtube.com/watch?v=nz3aV1jgHIE'>
-              <img src='https://imgur.com/T15YGXa.png' alt='video card' />
+              <img src='https://imgur.com/IHhrXcu.jpg' alt='video card' />
             </a>
             <i className='fab fa-youtube fa-2x vid-button'></i>
           </div>
           <div className='video'>
             <a href='https://www.youtube.com/watch?v=3h_nuoT2TdU'>
-              <img src='https://imgur.com/4xu96Ip.png' alt='video card' />
+              <img src='https://imgur.com/4xu96Ip.jpg' alt='video card' />
             </a>
             <i className='fab fa-youtube fa-2x vid-button'></i>
           </div>

@@ -18,13 +18,13 @@ const HomeMobile = () => {
         <LazyLoad>
           <section className='homeContainerMobile-main'>
             <div className='ipadtl'>
-              <img src='https://imgur.com/pFJCQVg.png' alt='gal with food' />
+              <img src='https://imgur.com/3AFnSfd.jpg' alt='gal with food' />
             </div>
             <div className='ipadml'>
-              <img src='https://imgur.com/9YAUbs6.png' alt='corn' />
+              <img src='https://imgur.com/m4tAvPX.jpg' alt='corn' />
             </div>
             <div className='ipadbl'>
-              <img src='https://imgur.com/pokfhSn.png' alt='older man in hat' />
+              <img src='https://imgur.com/CG7o7fq.jpg' alt='older man in hat' />
             </div>
 
             <div className='carousel-mobile'>
@@ -39,22 +39,22 @@ const HomeMobile = () => {
                 showStatus={false}
                 showArrows={false}>
                 <div>
-                  <img src='https://imgur.com/vC8skgZ.png' alt='mexico cover' />
+                  <img src='https://imgur.com/SAHVLhY.jpg' alt='mexico cover' />
                 </div>
                 <div>
-                  <img src='https://imgur.com/2BytCct.png' alt='paris cover' />
+                  <img src='https://imgur.com/fEBlwqS.jpg' alt='paris cover' />
                 </div>
               </Carousel>
             </div>
             <div className='ipadtr'>
-              <img src='https://imgur.com/5W2uCN4.png' alt='waiter' />
+              <img src='https://imgur.com/DVSJrF2.jpg' alt='waiter' />
             </div>
             <div className='ipadmr'>
-              <img src='https://imgur.com/zGPJQ7t.png' alt='plate of food' />
+              <img src='https://imgur.com/eG4b0bp.jpg' alt='plate of food' />
             </div>
             <div className='ipadbr'>
               <img
-                src='https://imgur.com/kfZNdjw.png'
+                src='https://imgur.com/QGPjTRp.jpg'
                 alt='woman with bowl of food'
               />
             </div>
