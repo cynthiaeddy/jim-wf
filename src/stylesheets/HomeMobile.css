@@ -2,7 +2,7 @@
   width: 83vw;
   margin-top: 140px;
   overflow-y: auto;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
   -webkit-overflow-scrolling: touch;
   /* position: fixed; */
 }
@@ -96,7 +96,7 @@
       'carousel-mobile  carousel-mobile  carousel-mobile' 'ipadtr ipadmr ipadbr';
   }
   .homeContainerMobile {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
   }
 
   .homeContainerMobile h5 {
@@ -113,9 +113,7 @@
     font-size: 4.3rem;
     line-height: 0.7;
   }
-  .homeContainerMobile {
-    /* padding-bottom: 180px; */
-  }
+
   .homeContainerMobile-h5 {
     margin-left: 12px;
   }
