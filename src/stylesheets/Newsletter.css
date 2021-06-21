@@ -123,6 +123,10 @@ input:hover {
     margin-right: 10vw;
     margin-top: 100px;
   }
+  .newsletterContainer-intro,
+  .video {
+    margin-right: 5px;
+  }
   #newsletterContainer p {
     margin-right: 0px;
   }

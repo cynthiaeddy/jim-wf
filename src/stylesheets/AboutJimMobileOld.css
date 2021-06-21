@@ -1,25 +1,25 @@
-.jim-container-mobile {
+.aboutJimContainer.mobile {
   width: 83vw;
   margin-top: 120px;
   overflow-y: scroll;
-  padding-bottom: 210px;
+  padding-bottom: 180px;
 }
-
-.mobile-jim-left {
+.aboutJimContainer.mobile-left {
   width: 30%;
 }
-.mobile-jim-right {
+.aboutJimContainer.mobile-right {
   width: 60%;
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
 }
 
-.books {
+.aboutJimContainer.mobile-books {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
 .book {
   margin: 0 5px;
   transition: 0.5s ease;
@@ -31,9 +31,6 @@
 
 .book:hover img {
   opacity: 0.5;
-}
-.book:hover .middle {
-  opacity: 1;
 }
 
 .middle {
@@ -50,6 +47,9 @@
   border-radius: 50%;
   background-color: black;
 }
+.book:hover .middle {
+  opacity: 1;
+}
 
 .text {
   color: white;
@@ -60,31 +60,19 @@
   margin-top: 12px;
 }
 
-img.jim-img {
+img.AboutJim {
   height: 100%;
   object-fit: contain;
 }
-span {
-  text-transform: uppercase;
-}
 
-p::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-p {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-p {
+.aboutJimContainer-right-copy p {
   margin: 0;
+  line-height: 1.5;
   overflow: unset;
 }
 
 @media (max-width: 400px) {
-  .jim-container-mobile {
+  .aboutJimContainer.mobile {
     padding-bottom: 140px;
   }
 }

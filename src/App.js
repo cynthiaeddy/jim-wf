@@ -14,6 +14,7 @@ import AboutParis from './components/paris/AboutParis'
 import Newsletter from './components/newsletter/Newsletter'
 
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
+import AboutJimMobileOld from './components/aboutJim/AboutJimMobileOld'
 
 class App extends React.Component {
   state = {
@@ -70,6 +71,11 @@ class App extends React.Component {
           <Route exact path='/about-james' component={AboutJimMobile} />
         ) : (
           <Route exact path='/about-james' component={AboutJim} />
+        )}
+        {isMobileJim ? (
+          <Route exact path='/about-james-old' component={AboutJimMobileOld} />
+        ) : (
+          <Route exact path='/about-james-old' component={AboutJim} />
         )}
 
         <Route exact path='/newsletter' component={Newsletter} />
