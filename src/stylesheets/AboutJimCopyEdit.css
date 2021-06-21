@@ -98,12 +98,12 @@ p::-webkit-scrollbar {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-p {
+p.grid-copy {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 
-p {
+p.grid-copy {
   margin: 0;
   padding-bottom: 90px;
 }

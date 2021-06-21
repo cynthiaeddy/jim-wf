@@ -84,7 +84,7 @@ const AboutJimMobileCopyEdit = () => {
           </a>
         </div>
         <div className='jim-copy'>
-          <p>
+          <p className='grid-copy'>
             <span>James Oseland</span> travels extensively in search of the
             world’s best restaurants, street food stalls, markets, and home
             cooks. He is the author and editor of{' '}

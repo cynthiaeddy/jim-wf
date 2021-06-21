@@ -1,8 +1,7 @@
-.jim-container-mobile {
+.jim-container-mobiled {
   width: 83vw;
   margin-top: 120px;
   overflow-y: scroll;
-  padding-bottom: 210px;
 }
 
 .mobile-jim-left {
@@ -68,24 +67,30 @@ img.jim-img {
 span {
   text-transform: uppercase;
 }
-
-p::-webkit-scrollbar {
+p.edit {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  text-align: left;
+  padding-bottom: 40px;
+}
+p.edit::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-p {
+p.edit {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 
-p {
+p.edit {
   margin: 0;
   overflow: unset;
 }
 
 @media (max-width: 400px) {
-  .jim-container-mobile.minis {
+  .jim-container-mobiled.minis {
     padding-bottom: 140px;
   }
 }
