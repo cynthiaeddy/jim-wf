@@ -29,7 +29,7 @@
 
 .aboutJimContainer-right-copy p {
   margin: 0 5px;
-  height: 44.5vh;
+  height: 43vh;
   overflow: auto;
   margin-right: 15px;
   margin-bottom: 0px;
@@ -64,12 +64,6 @@
   transform: rotate(-90deg);
   right: 0;
   top: 95%;
-}
-
-.fas,
-.fab {
-  font-size: 20px;
-  margin: 10px;
 }
 
 .middle {
@@ -133,45 +127,5 @@ img.aboutJim {
     width: 60%;
     margin-left: 20px;
     margin-right: 25px;
-  }
-}
-
-@media (max-width: 539px) {
-  .aboutJimContainer-mobile {
-    width: 83vw;
-    margin-top: 120px;
-    overflow-y: scroll;
-    padding-bottom: 200px;
-  }
-  .aboutJimContainer-mobile.books {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    padding: 0;
-  }
-  .aboutJimContainer-mobile.left {
-    width: 30%;
-    margin: 0;
-    padding: 0;
-  }
-  .aboutJimContainer-mobile.right {
-    width: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-    margin: 0;
-    padding: 0;
-  }
-
-  .book {
-    object-fit: cover;
-    margin-bottom: 5px;
-    width: 40%;
-  }
-}
-@media (max-width: 400px) {
-  .aboutJimContainer-mobile {
-    /* padding-bottom: 140px; */
-    padding-bottom: 210px;
   }
 }

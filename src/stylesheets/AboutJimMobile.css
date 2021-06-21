@@ -1,43 +1,20 @@
-.jim-container {
+.jim-container-mobile {
+  width: 83vw;
+  margin-top: 120px;
+  overflow-y: scroll;
+  padding-bottom: 210px;
+}
+
+.mobile-jim-left {
+  width: 30%;
+}
+.mobile-jim-right {
+  width: 60%;
   display: flex;
-  justify-content: center;
-  width: 70vw;
-  max-width: 1080px;
-  margin-top: 110px;
-  height: 90vh;
+  flex-wrap: wrap;
+  height: fit-content;
 }
 
-.jim-left {
-  max-width: 640px;
-  width: 49%;
-  align-self: center;
-  height: 100%;
-}
-.jim-right {
-  width: 50%;
-  margin-bottom: 80px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 90px;
-}
-
-.copys p {
-  margin: 0 5px;
-  height: 44.5vh;
-  overflow: auto;
-  margin-right: 15px;
-  margin-bottom: 0px;
-}
-
-p::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-p {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
 .books {
   display: flex;
   justify-content: space-between;
@@ -47,30 +24,18 @@ p {
   margin: 0 5px;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  object-fit: cover;
+  margin-bottom: 5px;
+  width: 40%;
 }
 
-.copys {
-  position: relative;
+.book:hover img {
+  opacity: 0.5;
 }
-.copys span {
-  text-transform: uppercase;
-}
-.down-arrow {
-  position: absolute;
-  transform: rotate(-90deg);
-  right: 0;
-  top: 95%;
+.book:hover .middle {
+  opacity: 1;
 }
 
-.fas,
-.fab {
-  font-size: 20px;
-  margin: 10px;
-}
-
-.book {
-  position: relative;
-}
 .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -84,12 +49,6 @@ p {
   text-align: center;
   border-radius: 50%;
   background-color: black;
-}
-.book:hover img {
-  opacity: 0.5;
-}
-.book:hover .middle {
-  opacity: 1;
 }
 
 .text {
@@ -105,72 +64,27 @@ img.jim-img {
   height: 100%;
   object-fit: contain;
 }
+span {
+  text-transform: uppercase;
+}
+/* p {
+  margin: 0 5px;
+  overflow: auto;
+  margin-right: 15px;
+  margin-bottom: 0px;
+} */
 
-.jim-container-mobile.mobile-alt {
-  margin-top: 160px;
+p::-webkit-scrollbar {
+  display: none;
 }
 
-@media (min-width: 900px) and (max-width: 1199px) {
-  .jim-container {
-    width: 80vw;
-  }
-  img.jim-img {
-    width: 95%;
-  }
+/* Hide scrollbar for IE, Edge and Firefox */
+p {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-@media (min-width: 540px) and (max-width: 899px) {
-  .jim-right {
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    width: 60%;
-    margin-left: 20px;
-    margin-right: 25px;
-  }
-  .jim-container {
-    width: 80vw;
-  }
-  .jim-left {
-    width: 38%;
-  }
-  img .jim-img {
-    object-fit: contain;
-    width: 95%;
-  }
-}
-@media (max-width: 539px) {
-  .books {
-    display: flex;
-  }
-  .mobile-jim-left {
-    width: 30%;
-  }
-  .mobile-jim-right {
-    width: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-  }
-
-  .jim-container-mobile {
-    width: 83vw;
-    margin-top: 120px;
-    overflow-y: scroll;
-    padding-bottom: 210px;
-  }
-
-  p {
-    margin: 0;
-    line-height: 1.5;
-    overflow: unset;
-  }
-
-  .book {
-    object-fit: cover;
-    object-fit: cover;
-    margin-bottom: 5px;
-    width: 40%;
-  }
+p {
+  margin: 0;
+  overflow: unset;
 }
