@@ -61,6 +61,24 @@ const ParisImages = [
   {
     img: (
       <img
+        src='https://imgur.com/XvnDYKS.jpg'
+        className='image-spread'
+        alt='cheese spread'
+      />
+    ),
+  },
+  {
+    img: (
+      <img
+        src='https://imgur.com/0sqkvxI.jpg'
+        className='image-spread'
+        alt='piegal'
+      />
+    ),
+  },
+  {
+    img: (
+      <img
         src='https://imgur.com/jQjDvvb.jpg'
         className='images-spread'
         alt='paris and food'

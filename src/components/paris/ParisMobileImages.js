@@ -25,15 +25,27 @@ const ParisMobileImages = () => {
         className='image-spread'
         alt='oysters'
       />
+
       <img
         src='https://imgur.com/amuppfm.jpg'
         className='image-spread'
         alt='young chef'
       />
+
       <img
         src='https://imgur.com/DQBsB0H.jpg'
         className='image-spread'
         alt='picnic'
+      />
+      <img
+        src='https://imgur.com/XvnDYKS.jpg'
+        className='image-spread'
+        alt='cheese spread'
+      />
+      <img
+        src='https://imgur.com/0sqkvxI.jpg'
+        className='image-spread'
+        alt='piegal'
       />
       <img
         src='https://imgur.com/jQjDvvb.jpg'
