@@ -1,60 +1,63 @@
-.jim-container-mobile {
+.container-jim {
   width: 83vw;
   margin-top: 120px;
-  overflow-y: scroll;
-  padding-bottom: 210px;
-}
-.books {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-.mobile-jim-left {
-  width: 30%;
-}
-.mobile-jim-right {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  height: fit-content;
+  overflow-y: auto;
+  /* padding-bottom: 210px; */
+  display: grid;
+  grid-template-columns: 40% 25% 25%;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  gap: 5px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'jim-foto mexico paris'
+    'jim-foto comfort cradle'
+    'jim-foto fork neurosis'
+    'jim-copy jim-copy jim-copy';
 }
 
-.copys p {
-  margin: 0 5px;
-  height: 44.5vh;
-  overflow: auto;
-  margin-right: 15px;
-  margin-bottom: 0px;
-}
-.copys {
-  position: relative;
-}
-.copys span {
-  text-transform: uppercase;
-}
-p {
-  margin: 0;
-  line-height: 1.5;
-  overflow: unset;
-}
-p::-webkit-scrollbar {
-  display: none;
+.jim-copy {
+  grid-area: jim-copy;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-p {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+.jim-foto {
+  grid-area: jim-foto;
 }
 
-.book {
-  margin: 0 5px;
+.mexico {
+  grid-area: mexico;
+}
+
+.paris {
+  grid-area: paris;
+}
+
+.comfort {
+  grid-area: comfort;
+}
+
+.cradle {
+  grid-area: cradle;
+}
+
+.fork {
+  grid-area: fork;
+}
+
+.neurosis {
+  grid-area: neurosis;
+}
+
+.booker {
   transition: 0.5s ease;
-  backface-visibility: hidden;
   position: relative;
-  object-fit: cover;
-  margin-bottom: 5px;
-  width: 40%;
+  width: 100%;
+}
+
+.booker:hover img {
+  opacity: 0.5;
+}
+.booker:hover .middle {
+  opacity: 1;
 }
 
 .middle {
@@ -71,12 +74,6 @@ p {
   border-radius: 50%;
   background-color: black;
 }
-.book:hover img {
-  opacity: 0.5;
-}
-.book:hover .middle {
-  opacity: 1;
-}
 
 .text {
   color: white;
@@ -90,9 +87,29 @@ p {
 img.jim-img {
   height: 100%;
   object-fit: contain;
+  margin-top: 10px;
 }
-@media (max-width: 400px) {
+span {
+  text-transform: uppercase;
+}
+
+p::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+p {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+p {
+  margin: 0;
+  padding-bottom: 90px;
+}
+
+/* @media (max-width: 400px) {
   .jim-container-mobile.minid {
-    padding-bottom: 180px;
+    padding-bottom: 140px;
   }
-}
+} */
