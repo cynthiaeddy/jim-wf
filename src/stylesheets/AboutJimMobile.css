@@ -1,34 +1,61 @@
-.jim-container-mobile {
+.container-jim {
   width: 83vw;
   margin-top: 120px;
-  overflow-y: scroll;
-  padding-bottom: 210px;
-}
-.mobile-jim-right {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  height: fit-content;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 40% 25% 25%;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  gap: 5px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'jim-foto mexico paris'
+    'jim-foto comfort cradle'
+    'jim-foto fork neurosis'
+    'jim-copy jim-copy jim-copy';
 }
 
-.books {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+.jim-copy {
+  grid-area: jim-copy;
 }
-.book {
-  margin: 0 5px;
+
+.jim-foto {
+  grid-area: jim-foto;
+}
+
+.mexico {
+  grid-area: mexico;
+}
+
+.paris {
+  grid-area: paris;
+}
+
+.comfort {
+  grid-area: comfort;
+}
+
+.cradle {
+  grid-area: cradle;
+}
+
+.fork {
+  grid-area: fork;
+}
+
+.neurosis {
+  grid-area: neurosis;
+}
+
+.booker {
   transition: 0.5s ease;
-  backface-visibility: hidden;
-  object-fit: cover;
-  margin-bottom: 5px;
-  width: 40%;
+  position: relative;
+  width: 100%;
 }
 
-.book:hover img {
+.booker:hover img {
   opacity: 0.5;
 }
-.book:hover .middle {
+.booker:hover .middle {
   opacity: 1;
 }
 
@@ -59,6 +86,7 @@
 img.jim-img {
   height: 100%;
   object-fit: contain;
+  margin-top: 10px;
 }
 span {
   text-transform: uppercase;
@@ -69,18 +97,18 @@ p::-webkit-scrollbar {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-p {
+p.grid-copy {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 
-p {
+p.grid-copy {
   margin: 0;
-  overflow: unset;
+  padding-bottom: 210px;
 }
 
-@media (max-width: 400px) {
-  .jim-container-mobile.mini {
+/* @media (max-width: 400px) {
+  .jim-container-mobile.minid {
     padding-bottom: 140px;
   }
-}
+} */

@@ -4,18 +4,15 @@ import { Route } from 'react-router-dom'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import NavBarToggle from './navbars/navBarToggle/NavBarToggle'
 import NavbarSocial from './navbars/navbarSocial/NavbarSocial'
-import AboutJim from './components/aboutJim/AboutJim'
 import HomeMobile from './components/home/HomeMobile'
 import Home from './components/home/Home'
 import AboutMexicoMobile from './components/mexico/AboutMexicoMobile'
 import AboutMexico from './components/mexico/AboutMexico'
 import AboutParisMobile from './components/paris/AboutParisMobile'
 import AboutParis from './components/paris/AboutParis'
-import Newsletter from './components/newsletter/Newsletter'
-
+import AboutJim from './components/aboutJim/AboutJim'
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
-import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
-import AboutJimMobileCopyEdit from './components/aboutJim/AboutJimMobileCopyEdit'
+import Newsletter from './components/newsletter/Newsletter'
 
 class App extends React.Component {
   state = {
@@ -72,24 +69,6 @@ class App extends React.Component {
           <Route exact path='/about-james' component={AboutJimMobile} />
         ) : (
           <Route exact path='/about-james' component={AboutJim} />
-        )}
-        {isMobileJim ? (
-          <Route
-            exact
-            path='/about-james-copy'
-            component={AboutJimMobileCopy}
-          />
-        ) : (
-          <Route exact path='/about-james-copy' component={AboutJim} />
-        )}
-        {isMobileJim ? (
-          <Route
-            exact
-            path='/about-james-edit'
-            component={AboutJimMobileCopyEdit}
-          />
-        ) : (
-          <Route exact path='/about-james-edit' component={AboutJim} />
         )}
 
         <Route exact path='/newsletter' component={Newsletter} />
