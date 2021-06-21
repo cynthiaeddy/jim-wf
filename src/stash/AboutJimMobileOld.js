@@ -8,7 +8,7 @@ const AboutJimMobileOld = () => {
     <div className='container'>
       <NavbarMobile />
 
-      <div className='aboutJimContainer mobile'>
+      <div className='aboutJimContainer-mobile'>
         <div className='aboutJimContainer mobile-books'>
           <div className='aboutJimContainer mobile-left'>
             <img
