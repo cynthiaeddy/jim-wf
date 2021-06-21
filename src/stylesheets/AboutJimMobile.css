@@ -67,12 +67,6 @@ img.jim-img {
 span {
   text-transform: uppercase;
 }
-/* p {
-  margin: 0 5px;
-  overflow: auto;
-  margin-right: 15px;
-  margin-bottom: 0px;
-} */
 
 p::-webkit-scrollbar {
   display: none;
