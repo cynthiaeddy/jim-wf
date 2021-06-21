@@ -1,6 +1,6 @@
 import React from 'react'
-import NavbarSocial from '../../navbars/navbarSocial/NavbarSocial'
-import NavbarMobile from '../../navbars/navbarMain/NavbarMobile'
+import NavbarSocial from '../navbars/navbarSocial/NavbarSocial'
+import NavbarMobile from '../navbars/navbarMain/NavbarMobile'
 import '../../stylesheets/AboutJimMobileOld.css'
 
 const AboutJimMobileOld = () => {
