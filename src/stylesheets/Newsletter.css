@@ -17,6 +17,7 @@
   text-align: right;
   color: black;
   margin-right: 0;
+  margin-bottom: 20px;
 }
 .forms {
   display: flex;
@@ -138,7 +139,6 @@ input:hover {
     margin-right: 15vw;
     width: 90vw;
     margin-top: 140px;
-    margin-bottom: 20px;
   }
   #newsletterContainer p {
     margin-left: 20%;
