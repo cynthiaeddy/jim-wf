@@ -14,6 +14,8 @@ import AboutParis from './components/paris/AboutParis'
 import Newsletter from './components/newsletter/Newsletter'
 
 import AboutJimMobile from './components/aboutJim/AboutJimMobile'
+import AboutJimMobileCopy from './components/aboutJim/AboutJimMobileCopy'
+import AboutJimMobileCopyEdit from './components/aboutJim/AboutJimMobileCopyEdit'
 
 class App extends React.Component {
   state = {
@@ -70,6 +72,24 @@ class App extends React.Component {
           <Route exact path='/about-james' component={AboutJimMobile} />
         ) : (
           <Route exact path='/about-james' component={AboutJim} />
+        )}
+        {isMobileJim ? (
+          <Route
+            exact
+            path='/about-james-copy'
+            component={AboutJimMobileCopy}
+          />
+        ) : (
+          <Route exact path='/about-james-copy' component={AboutJim} />
+        )}
+        {isMobileJim ? (
+          <Route
+            exact
+            path='/about-james-edit'
+            component={AboutJimMobileCopyEdit}
+          />
+        ) : (
+          <Route exact path='/about-james-edit' component={AboutJim} />
         )}
 
         <Route exact path='/newsletter' component={Newsletter} />

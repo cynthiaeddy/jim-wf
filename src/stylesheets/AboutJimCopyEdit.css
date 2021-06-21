@@ -1,36 +1,60 @@
-.aboutJimContainer-mobile {
+.jim-container-mobile {
   width: 83vw;
   margin-top: 120px;
   overflow-y: scroll;
-  padding-bottom: 180px;
+  padding-bottom: 210px;
 }
-.aboutJimContainer.mobile-left {
+.books {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.mobile-jim-left {
   width: 30%;
 }
-.aboutJimContainer.mobile-right {
+.mobile-jim-right {
   width: 60%;
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
 }
 
-.aboutJimContainer.mobile-books {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+.copys p {
+  margin: 0 5px;
+  height: 44.5vh;
+  overflow: auto;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+.copys {
+  position: relative;
+}
+.copys span {
+  text-transform: uppercase;
+}
+p {
+  margin: 0;
+  line-height: 1.5;
+  overflow: unset;
+}
+p::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+p {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .book {
   margin: 0 5px;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  position: relative;
   object-fit: cover;
   margin-bottom: 5px;
   width: 40%;
-}
-
-.book:hover img {
-  opacity: 0.5;
 }
 
 .middle {
@@ -47,6 +71,9 @@
   border-radius: 50%;
   background-color: black;
 }
+.book:hover img {
+  opacity: 0.5;
+}
 .book:hover .middle {
   opacity: 1;
 }
@@ -60,19 +87,7 @@
   margin-top: 12px;
 }
 
-img.AboutJim {
+img.jim-img {
   height: 100%;
   object-fit: contain;
-}
-
-.aboutJimContainer-right-copy p {
-  margin: 0;
-  line-height: 1.5;
-  overflow: unset;
-}
-
-@media (max-width: 400px) {
-  .aboutJimContainer.mobile {
-    padding-bottom: 140px;
-  }
 }

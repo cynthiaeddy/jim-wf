@@ -48,12 +48,12 @@ class AboutJim extends React.Component {
                 <a href='https://www.amazon.com/World-Food-Heritage-Recipes-Classic/dp/0399579834/ref=sr_1_2?dchild=1&keywords=world+food+paris&qid=1607724226&s=books&sr=1-2'>
                   <i>World Food: Paris</i>
                 </a>
-                , part of World Food, a new book series from Ten Speed Press;
-                the next book in the series will be about Paris. He was the
-                editor-in-chief for nine years of <i>Saveur</i>, America’s most
-                acclaimed food magazine, where his work garnered many accolades,
-                including seven James Beard Awards and three awards from the
-                American Society of Magazine Editors. His cookbook{' '}
+                , part of World Food, a new book series from Ten Speed Press. He
+                was the editor-in-chief for nine years of <i>Saveur</i>,
+                America’s most acclaimed food magazine, where his work garnered
+                many accolades, including seven James Beard Awards and three
+                awards from the American Society of Magazine Editors. His
+                cookbook{' '}
                 <a href='https://www.amazon.com/gp/product/0393054772/ref=dbs_a_def_rwt_bibl_vppi_i4'>
                   <i>Cradle of Flavor</i>
                 </a>{' '}
