@@ -191,8 +191,8 @@ img.jim-img {
     flex-direction: row;
   }
 }
-@media (max-width: 320px) {
-  .jim-container-mobile {
+@media (max-width: 400px) {
+  .jim-container-mobile.minis {
     /* padding-bottom: 85px; */
     padding-bottom: 80px;
   }

@@ -8,7 +8,7 @@ const AboutJimMobileCopy = () => {
     <div className='container'>
       <NavbarJimMobile />
 
-      <div className='jim-container-mobile'>
+      <div className='jim-container-mobile minis'>
         <div className='books'>
           <div className='mobile-jim-left'>
             <img

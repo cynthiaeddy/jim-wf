@@ -8,7 +8,7 @@ const AboutJimMobileCopyEdit = () => {
     <div className='container'>
       <NavbarJimMobile />
 
-      <div className='jim-container-mobile'>
+      <div className='jim-container-mobile minid'>
         <div className='books'>
           <div className='mobile-jim-left'>
             <img
