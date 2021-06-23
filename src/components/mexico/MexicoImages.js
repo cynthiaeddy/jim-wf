@@ -68,18 +68,18 @@ const MexicoImages = [
   {
     img: (
       <img
-        src='https://imgur.com/tPc9kE0.jpg'
+        src='https://imgur.com/LKyUwsf.jpg'
         className='image-spread'
-        alt='painter'
+        alt='steak'
       />
     ),
   },
   {
     img: (
       <img
-        src='https://imgur.com/LKyUwsf.jpg'
+        src='https://imgur.com/tPc9kE0.jpg'
         className='image-spread'
-        alt='steak'
+        alt='painter'
       />
     ),
   },

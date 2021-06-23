@@ -42,15 +42,20 @@ const MexicoMobileImages = () => {
         alt='making tortillas'
       />
       <img
-        src='https://imgur.com/qxpz9vC.jpg'
-        className='image-spread'
-        alt='city dusk scene'
-      />
-      f
-      <img
         src='https://imgur.com/LKyUwsf.jpg'
         className='image-spread'
         alt='steak'
+      />
+
+      <img
+        src='https://imgur.com/tPc9kE0.jpg'
+        className='image-spread'
+        alt='painter'
+      />
+      <img
+        src='https://imgur.com/qxpz9vC.jpg'
+        className='image-spread'
+        alt='city dusk scene'
       />
       <img
         src='https://imgur.com/gmv8QqP.jpg'
