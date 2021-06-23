@@ -57,10 +57,10 @@ class AboutJim extends React.Component {
                 <a href='https://www.amazon.com/gp/product/0393054772/ref=dbs_a_def_rwt_bibl_vppi_i4'>
                   <i>Cradle of Flavor</i>
                 </a>{' '}
-                was named one of the best aboutJimContainer-right-books of 2006
-                by the <i>New York Times </i>and <i>Good Morning America</i>.
-                Additionally, James’s writing has appeared in{' '}
-                <i>Gourmet, Vogue, Food and Wine</i>, and the{' '}
+                was named one of the best books of 2006 by the{' '}
+                <i>New York Times </i>
+                and <i>Good Morning America</i>. Additionally, James’s writing
+                has appeared in <i>Gourmet, Vogue, Food and Wine</i>, and the{' '}
                 <i>Wall Street Journal</i>, where he writes the “Cook’s
                 Playbook” column. He has appeared on <i>Celebrity Apprentice</i>
                 , the <i>Today Show, Iron Chef America</i>, and was a permanent
