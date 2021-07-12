@@ -5,7 +5,7 @@
   align-items: center;
   width: 37vw;
   margin-right: 7vw;
-  margin-top: 10px;
+  margin-top: 100px;
   overflow-y: scroll;
   margin-bottom: 40px;
 }
@@ -89,6 +89,13 @@ input:hover {
   font-size: 3em;
 }
 
+@media (min-width: 1400px) {
+  .video {
+    max-width: 485px;
+    margin-left: 14%;
+  }
+}
+
 @media (min-height: 800px) and (max-height: 1280px) {
   #newsletterContainer {
     margin-top: 120px;
@@ -98,7 +105,7 @@ input:hover {
     margin-bottom: 20px;
   }
 }
-@media (min-width: 1150px) and (max-width: 1399px) {
+@media (min-width: 1150px) {
   #newsletterContainer {
     width: 45vw;
     margin-right: 8.5vw;
@@ -123,6 +130,7 @@ input:hover {
     margin-right: 10vw;
     margin-top: 100px;
     margin-bottom: 90px;
+    position: fixed;
   }
   .newsletterContainer-intro,
   .video {
