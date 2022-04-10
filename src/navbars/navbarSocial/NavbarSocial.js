@@ -15,7 +15,7 @@ const NavbarSocial = () => {
             <i className='fab fa-instagram-square fa-2x'></i>
           </a>
         </div>
-        <div className='facebook'>
+        <div className='github'>
           <a href=' https://www.facebook.com/james.oseland'>
             <i className='fab fa-facebook fa-2x'></i>
           </a>
